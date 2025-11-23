@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\QuestionnaireResponse;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -33,8 +34,9 @@ class PageController extends Controller
 
     public function submitQuestionnaire(Request $request)
     {
-        // Here you can handle the form submission, for example, by validating and saving the data.
-        // For now, we'll just redirect back with a success message.
-        return back()->with('success', 'Thank you for your submission!');
+        // In a real application, you would add validation here.
+        QuestionnaireResponse::create($request->all());
+
+        return back()->with('success', 'Thank you for your submission! We have received your information and will be in touch shortly.');
     }
 }
