@@ -14,32 +14,32 @@
     <title>@yield('title', 'ISHA Interior E-Design Studio')</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('img/fav.png') }}" title="Favicon" sizes="16x16">
+    <link rel="shortcut icon" href="{{ asset('assets/img/fav.png') }}" title="Favicon" sizes="16x16">
 
     <!-- bootstrap 5 -->
-    <link rel="stylesheet" href="{{ asset('css/lib/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/lib/bootstrap.min.css') }}">
 
     <!-- font family -->
-    <link href="{{ asset('fonts/google-fonts-1.css') }}" rel="stylesheet">
-    <link href="{{ asset('fonts/google-fonts-2.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/fonts/google-fonts-1.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/fonts/google-fonts-2.css') }}" rel="stylesheet">
 
     <!-- fontawesome icons  -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
     <!-- Replace the URL above with your Font Awesome Pro kit URL from fontawesome.com -->
     <!-- animate css  -->
-    <link rel="stylesheet" href="{{ asset('css/lib/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/lib/animate.css') }}">
     <!-- fancybox popup  -->
-    <link rel="stylesheet" href="{{ asset('css/lib/jquery.fancybox.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/lib/jquery.fancybox.css') }}">
     <!-- lity popup  -->
-    <link rel="stylesheet" href="{{ asset('css/lib/lity.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/lib/lity.css') }}">
     <!-- swiper slider  -->
-    <link rel="stylesheet" href="{{ asset('css/lib/swiper8.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/lib/swiper8.min.css') }}">
 
     <!-- common style -->
-    <link rel="stylesheet" href="{{ asset('css/common_style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/common_style.css') }}">
 
     <!-- style -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 
@@ -68,9 +68,9 @@
             </ul>
         </div>
         <span class="white-line"></span>
-        <img src="{{ asset('img/contact.png') }}" alt="" class="cube img-cover">
+        <img src="{{ asset('assets/img/contact.png') }}" alt="" class="cube img-cover">
         <span class="clss"> <i class="fas fa-times"></i> </span>
-        <img src="{{ asset('img/logo.png') }}" alt="" class="logo">
+        <img src="{{ asset('assets/img/logo.png') }}" alt="" class="logo">
     </div>
     <!--  End sidemenu  -->
 
@@ -123,26 +123,26 @@
     <!--  End to top button  -->
 
     <!--  request  -->
-    <script src="{{ asset('js/lib/jquery-3.0.0.min.js') }}"></script>
-    <script src="{{ asset('js/lib/jquery-migrate-3.0.0.min.js') }}"></script>
-    <script src="{{ asset('js/lib/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('js/lib/wow.min.js') }}"></script>
-    <script src="{{ asset('js/lib/jquery.fancybox.js') }}"></script>
-    <script src="{{ asset('js/lib/lity.js') }}"></script>
-    <script src="{{ asset('js/lib/swiper8-bundle.min.js') }}"></script>
-    <script src="{{ asset('js/lib/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('js/lib/jquery.counterup.js') }}"></script>
-    <script src="{{ asset('js/lib/parallaxie.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/jquery-3.0.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/jquery-migrate-3.0.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/jquery.fancybox.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/lity.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/swiper8-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/jquery.counterup.js') }}"></script>
+    <script src="{{ asset('assets/js/lib/parallaxie.js') }}"></script>
     <!-- === Gsap === -->
-    <script src="{{ asset('js/gsap_lib/gsap.min.js') }}"></script>
-    <script src="{{ asset('js/gsap_lib/ScrollSmoother.min.js') }}"></script>
-    <script src="{{ asset('js/gsap_lib/ScrollTrigger.min.js') }}"></script>
-    <script src="{{ asset('js/gsap_lib/SplitText.min.js') }}"></script>
+    <script src="{{ asset('assets/js/gsap_lib/gsap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/gsap_lib/ScrollSmoother.min.js') }}"></script>
+    <script src="{{ asset('assets/js/gsap_lib/ScrollTrigger.min.js') }}"></script>
+    <script src="{{ asset('assets/js/gsap_lib/SplitText.min.js') }}"></script>
     <!-- === common === -->
-    <script src="{{ asset('js/common.js') }}"></script>
+    <script src="{{ asset('assets/js/common.js') }}"></script>
 
     <!-- ===== scripts ===== -->
-    <script src="{{ asset('js/scripts.js') }}"></script>
+    <script src="{{ asset('assets/js/scripts.js') }}"></script>
 
 </body>
 
