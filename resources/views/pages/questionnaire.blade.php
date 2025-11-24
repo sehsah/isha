@@ -6,11 +6,11 @@
 <header class="tc-inner-header-style1">
     <div class="container">
         <div class="section-head-st1">
-            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('assets/img/fav_gold.svg') }}" alt=""> </span> Client Questionnaire </h6>
+            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('img/fav_gold.svg') }}" alt=""> </span> Client Questionnaire </h6>
             <h2 class="fsz-50">Tell Us About Your Project</h2>
         </div>
     </div>
-    <img src="{{ asset('assets/img/header_shaps.png') }}" alt="" class="header_shaps">
+    <img src="{{ asset('img/header_shaps.png') }}" alt="" class="header_shaps">
 </header>
 <section class="tc-contact-form-st1">
     <div class="container">

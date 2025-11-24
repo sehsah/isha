@@ -14,32 +14,32 @@
     <title>ISHA Interior E-Design Studio</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/img/fav.png') }}" title="Favicon" sizes="16x16">
+    <link rel="shortcut icon" href="{{ asset('img/fav.png') }}" title="Favicon" sizes="16x16">
 
     <!-- bootstrap 5 -->
-    <link rel="stylesheet" href="{{ asset('assets/css/lib/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lib/bootstrap.min.css') }}">
 
     <!-- font family -->
-    <link href="{{ asset('assets/fonts/google-fonts-1.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/fonts/google-fonts-2.css') }}" rel="stylesheet">
+    <link href="{{ asset('fonts/google-fonts-1.css') }}" rel="stylesheet">
+    <link href="{{ asset('fonts/google-fonts-2.css') }}" rel="stylesheet">
 
     <!-- fontawesome icons  -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
     <!-- Replace the URL above with your Font Awesome Pro kit URL from fontawesome.com -->
     <!-- animate css  -->
-    <link rel="stylesheet" href="{{ asset('assets/css/lib/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lib/animate.css') }}">
     <!-- fancybox popup  -->
-    <link rel="stylesheet" href="{{ asset('assets/css/lib/jquery.fancybox.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lib/jquery.fancybox.css') }}">
     <!-- lity popup  -->
-    <link rel="stylesheet" href="{{ asset('assets/css/lib/lity.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lib/lity.css') }}">
     <!-- swiper slider  -->
-    <link rel="stylesheet" href="{{ asset('assets/css/lib/swiper8.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lib/swiper8.min.css') }}">
 
     <!-- common style -->
-    <link rel="stylesheet" href="{{ asset('assets/css/common_style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/common_style.css') }}">
 
     <!-- style -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 </head>
 
@@ -67,9 +67,9 @@
             </ul>
         </div>
         <span class="white-line"></span>
-        <img src="{{ asset('assets/img/contact.png') }}" alt="" class="cube img-cover">
+        <img src="{{ asset('img/contact.png') }}" alt="" class="cube img-cover">
         <span class="clss"> <i class="fas fa-times"></i> </span>
-        <img src="{{ asset('assets/img/logo.png') }}" alt="" class="logo">
+        <img src="{{ asset('img/logo.png') }}" alt="" class="logo">
     </div>
     <!--  End sidemenu  -->
 
@@ -104,7 +104,7 @@
         <nav class="navbar navbar-expand-lg tc-navbar-st1 navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand me-lg-5" href="#">
-                    <img src="{{ asset('assets/img/logo.png') }}" width="100px" alt="" class="logo">
+                    <img src="{{ asset('img/logo.png') }}" width="100px" alt="" class="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -150,7 +150,7 @@
                     <h1 class="title"> ISHA Interior E-Design Studio </h1>
                     <div class="info-card">
                         <div class="img icon-80 rounded-circle overflow-hidden me-20 flex-shrink-0">
-                            <img src="{{ asset('assets/img/hero1.jpg') }}" alt="" class="img-cover">
+                            <img src="{{ asset('img/hero1.jpg') }}" alt="" class="img-cover">
                         </div>
                         <div class="cont">
                             <h6 class="fsz-24 mb-1"> Creating a harmonious blend of aesthetics and functionality. </h6>
@@ -172,13 +172,13 @@
                                         </text>
                                     </svg>
                                 </a>
-                                <div class="icon"> <img src="{{ asset('assets/img/fav_wh.svg') }}" alt=""> </div>
+                                <div class="icon"> <img src="{{ asset('img/fav_wh.svg') }}" alt=""> </div>
                             </div>
                         </div>
                         <div class="col-lg-5 text-lg-end">
                             <div class="txt-img-box d-inline-flex align-items-center mt-40">
                                 <div class="img icon-200 rounded-circle overflow-hidden me-20 flex-shrink-0">
-                                    <img src="{{ asset('assets/img/hero2.png') }}" alt="" class="img-cover">
+                                    <img src="{{ asset('img/hero2.png') }}" alt="" class="img-cover">
                                 </div>
                                 <div class="cont text-start">
                                     <h5 class="fsz-30"> Let’s Create <br> Something Beautiful <br> Together </h5>
@@ -207,16 +207,16 @@
                         <div class="row justify-content-between">
                             <div class="col-lg-4">
                                 <div class="img">
-                                    <img src="{{ asset('assets/img/about1.jpg') }}" alt="" class="img-cover">
+                                    <img src="{{ asset('img/about1.jpg') }}" alt="" class="img-cover">
                                     <div class="float-img img-h-w" data-speed="1" data-lag="0.7">
-                                        <img src="{{ asset('assets/img/ab_icon.svg') }}" alt="">
+                                        <img src="{{ asset('img/ab_icon.svg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-7">
                                 <div class="info">
                                     <div class="section-head-st1 mb-30 js-splittext-lines">
-                                        <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('assets/img/fav_gold.svg') }}" alt=""> </span> About Us </h6>
+                                        <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('img/fav_gold.svg') }}" alt=""> </span> About Us </h6>
                                         <h2 class="fsz-50"> Design That Inspires and Elevates </h2>
                                     </div>
                                     <div class="text fsz-14 cr-999"> 
@@ -243,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="{{ asset('assets/img/line1.svg') }}" alt="" class="line wow">
+                <img src="{{ asset('img/line1.svg') }}" alt="" class="line wow">
             </section>
             <!--  End about  -->
 
@@ -260,7 +260,7 @@
                     <div class="row gx-0">
                         <div class="col-lg-5">
                             <div class="img wow zoomIn slow" data-wow-delay="0.1s">
-                                <img src="{{ asset('assets/img/service-1.jpg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('img/service-1.jpg') }}" alt="" class="img-cover">
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -269,7 +269,7 @@
                                 <div class="service-cards wow fadeInUp slow" data-wow-delay="0.1s">
                                     <div class="service-card">
                                         <div class="icon">
-                                            <img src="{{ asset('assets/img/ser1.svg') }}" alt="">
+                                            <img src="{{ asset('img/ser1.svg') }}" alt="">
                                         </div>
                                         <div class="cont">
                                             <h5 class="fsz-30 mb-15"> Convenience </h5>
@@ -278,7 +278,7 @@
                                     </div>
                                     <div class="service-card">
                                         <div class="icon">
-                                            <img src="{{ asset('assets/img/ser2.svg') }}" alt="">
+                                            <img src="{{ asset('img/ser2.svg') }}" alt="">
                                         </div>
                                         <div class="cont">
                                             <h5 class="fsz-30 mb-15"> Affordability </h5>
@@ -287,7 +287,7 @@
                                     </div>
                                     <div class="service-card">
                                         <div class="icon">
-                                            <img src="{{ asset('assets/img/ser3.svg') }}" alt="">
+                                            <img src="{{ asset('img/ser3.svg') }}" alt="">
                                         </div>
                                         <div class="cont">
                                             <h5 class="fsz-30 mb-15"> Flexibility </h5>
@@ -296,7 +296,7 @@
                                     </div>
                                     <div class="service-card">
                                         <div class="icon">
-                                            <img src="{{ asset('assets/img/ser3.svg') }}" alt="">
+                                            <img src="{{ asset('img/ser3.svg') }}" alt="">
                                         </div>
                                         <div class="cont">
                                             <h5 class="fsz-30 mb-15"> Advanced Technology </h5>
@@ -356,7 +356,7 @@
             <section id="what-to-expect" class="tc-portfolio-st1">
                 <div class="container">
                     <div class="section-head-st1 mb-60 col-lg-6 js-splittext-lines">
-                        <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('assets/img/fav_gold.svg') }}" alt=""> </span> What To Expect </h6>
+                        <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('img/fav_gold.svg') }}" alt=""> </span> What To Expect </h6>
                         <h2 class="fsz-50"> From Concept to Reality </h2>
                     </div>
                     <div class="portfolio-slider float-cursor-container wow fadeInUp slow" data-wow-delay="0.1s">
@@ -364,7 +364,7 @@
                             <div class="swiper-slide">
                                 <div class="portfolio-card">
                                     <div class="img">
-                                        <img src="{{ asset('assets/img/1.jpg') }}" alt="" class="img-cover">
+                                        <img src="{{ asset('img/1.jpg') }}" alt="" class="img-cover">
                                     </div>
                                     <div class="info-card">
                                         <span class="tag"> Step 1 </span>
@@ -376,7 +376,7 @@
                             <div class="swiper-slide">
                                 <div class="portfolio-card">
                                     <div class="img">
-                                        <img src="{{ asset('assets/img/2.jpg') }}" alt="" class="img-cover">
+                                        <img src="{{ asset('img/2.jpg') }}" alt="" class="img-cover">
                                     </div>
                                     <div class="info-card">
                                         <span class="tag"> Step 2 </span>
@@ -388,7 +388,7 @@
                             <div class="swiper-slide">
                                 <div class="portfolio-card">
                                     <div class="img">
-                                        <img src="{{ asset('assets/img/1.jpg') }}" alt="" class="img-cover">
+                                        <img src="{{ asset('img/1.jpg') }}" alt="" class="img-cover">
                                     </div>
                                     <div class="info-card">
                                         <span class="tag"> Step 3 </span>
@@ -418,7 +418,7 @@
                                 <div class="swiper-slide">
                                     <div class="testi-card">
                                         <div class="user-info mb-30 d-flex align-items-center">
-                                            <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
+                                            <img src="{{ asset('img/qt.svg') }}" alt="" class="qt th-40 me-80">
                                             <span class="txt fsz-16 text-uppercase"> What are the payment terms and methods? </span>
                                         </div>
                                         <div class="main-txt cr-999 sub-font">
@@ -429,7 +429,7 @@
                                 <div class="swiper-slide">
                                     <div class="testi-card">
                                         <div class="user-info mb-30 d-flex align-items-center">
-                                            <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
+                                            <img src="{{ asset('img/qt.svg') }}" alt="" class="qt th-40 me-80">
                                             <span class="txt fsz-16 text-uppercase"> How long will the design process take? </span>
                                         </div>
                                         <div class="main-txt cr-999 sub-font">
@@ -440,7 +440,7 @@
                                 <div class="swiper-slide">
                                     <div class="testi-card">
                                         <div class="user-info mb-30 d-flex align-items-center">
-                                            <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
+                                            <img src="{{ asset('img/qt.svg') }}" alt="" class="qt th-40 me-80">
                                             <span class="txt fsz-16 text-uppercase"> What if I need to make changes during the project? </span>
                                         </div>
                                         <div class="main-txt cr-999 sub-font">
@@ -451,7 +451,7 @@
                                 <div class="swiper-slide">
                                     <div class="testi-card">
                                         <div class="user-info mb-30 d-flex align-items-center">
-                                            <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
+                                            <img src="{{ asset('img/qt.svg') }}" alt="" class="qt th-40 me-80">
                                             <span class="txt fsz-16 text-uppercase"> How do you handle procurement and installation? </span>
                                         </div>
                                         <div class="main-txt cr-999 sub-font">
@@ -475,22 +475,22 @@
                         <div class="row">
                             <div class="col-lg-3 col-6">
                                 <a href="#" class="img wow fadeInUp slow" data-wow-delay="0.1s">
-                                    <img src="{{ asset('assets/img/insta/1.jpg') }}" alt="" class="img-cover wow clippy-img">
+                                    <img src="{{ asset('img/insta/1.jpg') }}" alt="" class="img-cover wow clippy-img">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <a href="#" class="img wow fadeInUp slow" data-wow-delay="0.2s">
-                                    <img src="{{ asset('assets/img/insta/2.jpg') }}" alt="" class="img-cover wow clippy-img">
+                                    <img src="{{ asset('img/insta/2.jpg') }}" alt="" class="img-cover wow clippy-img">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <a href="#" class="img wow fadeInUp slow" data-wow-delay="0.3s">
-                                    <img src="{{ asset('assets/img/insta/3.jpg') }}" alt="" class="img-cover wow clippy-img">
+                                    <img src="{{ asset('img/insta/3.jpg') }}" alt="" class="img-cover wow clippy-img">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <a href="#" class="img wow fadeInUp slow" data-wow-delay="0.4s">
-                                    <img src="{{ asset('assets/img/insta/4.jpg') }}" alt="" class="img-cover wow clippy-img">
+                                    <img src="{{ asset('img/insta/4.jpg') }}" alt="" class="img-cover wow clippy-img">
                                 </a>
                             </div>
                         </div>
@@ -510,7 +510,7 @@
                         <a href="#0" class="butn bg-gold1 rounded-pill mt-50 fsz-16 hover-bg-white"> Contact Us <i class="fas fa-arrow-right ms-2"></i> </a>
                     </div>
                     <div class="main-img">
-                        <img src="{{ asset('assets/img/contact.png') }}" alt="" class="img-contain">
+                        <img src="{{ asset('img/contact.png') }}" alt="" class="img-contain">
                     </div>
                 </div>
             </section>
@@ -590,26 +590,26 @@
     <!--  End to top button  -->
 
     <!--  request  -->
-    <script src="{{ asset('assets/js/lib/jquery-3.0.0.min.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/jquery-migrate-3.0.0.min.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/wow.min.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/jquery.fancybox.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/lity.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/swiper8-bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/jquery.counterup.js') }}"></script>
-    <script src="{{ asset('assets/js/lib/parallaxie.js') }}"></script>
+    <script src="{{ asset('js/lib/jquery-3.0.0.min.js') }}"></script>
+    <script src="{{ asset('js/lib/jquery-migrate-3.0.0.min.js') }}"></script>
+    <script src="{{ asset('js/lib/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/lib/wow.min.js') }}"></script>
+    <script src="{{ asset('js/lib/jquery.fancybox.js') }}"></script>
+    <script src="{{ asset('js/lib/lity.js') }}"></script>
+    <script src="{{ asset('js/lib/swiper8-bundle.min.js') }}"></script>
+    <script src="{{ asset('js/lib/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('js/lib/jquery.counterup.js') }}"></script>
+    <script src="{{ asset('js/lib/parallaxie.js') }}"></script>
     <!-- === Gsap === -->
-    <script src="{{ asset('assets/js/gsap_lib/gsap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/gsap_lib/ScrollSmoother.min.js') }}"></script>
-    <script src="{{ asset('assets/js/gsap_lib/ScrollTrigger.min.js') }}"></script>
-    <script src="{{ asset('assets/js/gsap_lib/SplitText.min.js') }}"></script>
+    <script src="{{ asset('js/gsap_lib/gsap.min.js') }}"></script>
+    <script src="{{ asset('js/gsap_lib/ScrollSmoother.min.js') }}"></script>
+    <script src="{{ asset('js/gsap_lib/ScrollTrigger.min.js') }}"></script>
+    <script src="{{ asset('js/gsap_lib/SplitText.min.js') }}"></script>
     <!-- === common === -->
-    <script src="{{ asset('assets/js/common.js') }}"></script>
+    <script src="{{ asset('js/common.js') }}"></script>
 
     <!-- ===== scripts ===== -->
-    <script src="{{ asset('assets/js/scripts.js') }}"></script>
+    <script src="{{ asset('js/scripts.js') }}"></script>
 
 </body>
 
