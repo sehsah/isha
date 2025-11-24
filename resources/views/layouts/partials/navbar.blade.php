@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg tc-navbar-st1 navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand me-lg-5" href="{{ route('home') }}">
-            <img src="{{ asset('img/logo.png') }}" width="100px" alt="" class="logo">
+            <img src="{{ asset('assets/img/logo.png') }}" width="100px" alt="" class="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
