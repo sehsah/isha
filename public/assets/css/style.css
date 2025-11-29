@@ -1655,8 +1655,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 1.25rem;
-  -webkit-margin-start: 100px;
-          margin-inline-start: 100px;
+
 }
 .tc-navbar-st1 .sidemenu-toggle:hover {
   background-color: #fff;

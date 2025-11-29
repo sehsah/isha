@@ -15,27 +15,33 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('about') }}">About Us</a>
+                </li>                
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('home') }}">Our Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('projects') }}">Projects</a>
+                    <a class="nav-link" href="{{ route('projects') }}">Our Works</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('questionnaire') }}">Questionnaire</a>
+                    <a class="nav-link" href="{{ route('about') }}">How To</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('contact') }}">Register</a>
+                </li>
             </ul>
             <div class="nav-side d-flex align-items-center">
-                <a href="#" class="contact-item d-flex align-items-center">
+               {{--  <a href="#" class="contact-item d-flex align-items-center">
                     <span class="icon fsz-30 me-20 flex-shrink-0 op-8 mt-1"> <i class="fas fa-phone"></i> </span>
                     <div class="cont">
                         <div class="text fsz-16 op-8 fw-200"> Call us Phone </div>
                         <h6 class="fsz-20 fw-300"> +44 54224 849203 </h6>
                     </div>
-                </a>
+                </a>--}}
                 <a href="#" class="sidemenu-toggle menu-toggle-btn"> <i class="fas fa-bars"></i> </a>
-            </div>
+            </div> 
         </div>
     </div>
 </nav>
