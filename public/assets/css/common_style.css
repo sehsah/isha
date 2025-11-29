@@ -1508,8 +1508,10 @@ html::-webkit-scrollbar-corner {
   border-radius: 10px;
 }
 
+@import url("all-round-gothic.css");
+
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "All Round Gothic W03 Book", sans-serif;
   text-decoration: none;
   font-size: 14px;
   overflow-x: hidden;
@@ -1676,7 +1678,6 @@ h4,
 h5,
 h6,
 .sub-font {
-  font-family: "Jost", sans-serif;
   font-weight: 400;
   margin: 0;
   line-height: 1.3;
@@ -2939,7 +2940,7 @@ input:focus {
 /* ========= [ * variable ]  =========*/
 /* --------------- variable --------------- */
 :root {
-  --cr-gold1:#B06673;
+  --cr-gold1:#BF8173;
   --cr-dark1:#151515;
   --cr-light1:#F8FAFD;
 }

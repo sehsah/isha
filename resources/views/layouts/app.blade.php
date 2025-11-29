@@ -40,7 +40,20 @@
 
     <!-- style -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
+    <style>
+        @font-face {
+            font-family: "All Round Gothic W03 Bold";
+            src: url("https://db.onlinewebfonts.com/t/035985f659efe093bb3824446b5743a3.eot");
+            src: url("https://db.onlinewebfonts.com/t/035985f659efe093bb3824446b5743a3.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/035985f659efe093bb3824446b5743a3.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/035985f659efe093bb3824446b5743a3.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/035985f659efe093bb3824446b5743a3.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/035985f659efe093bb3824446b5743a3.svg#All Round Gothic W03 Bold")format("svg");
+        }        
+        body{
+            font-family: "All Round Gothic W03 Bold", sans-serif !important;
+        }
+    </style>
 </head>
 
 <body class="home-st1 dark-theme">
