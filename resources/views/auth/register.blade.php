@@ -1,28 +1,16 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Us - ISHA Interior E-Design Studio')
-
 @section('content')
 <header class="tc-inner-header-style1">
     <div class="container">
         <div class="section-head-st1">
-            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="assets/img/fav_gold.svg" alt=""> </span> Get In Touch </h6>
-            <h2 class="fsz-50"> Let's Create Your Dream Space </h2>
+            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="assets/img/fav_gold.svg" alt=""> </span> Register </h6>
+            <h2 class="fsz-50"> Create Your Account </h2>
         </div>
     </div>
     <img src="assets/img/header_shaps.png" alt="" class="header_shaps">
 </header>
-<section class="tc-contact-st1">
-    <div class="container">
-        <div class="title-wrapper col-lg-9 mx-auto text-center js-splittext-lines">
-            <div class="fsz-24 text-uppercase cr-gold1 ltspc-2 mb-10"> Have a project in mind? </div>
-            <h2 class="fsz-100 text-capitalize lh-1"> Let's Create Your Dream Space </h2>
-        </div>
-        <div class="main-img">
-            <img src="../assets/img/contact.png" alt="" class="img-contain">
-        </div>
-    </div>
-</section>
+
 
 <section class="tc-contact-form-st1">
     <div class="container">
@@ -53,30 +41,26 @@
                      <div class="form-group mb-3">
                         <div class="row">
                             <div class="col-lg-6">
+                                <label class="fsz-16 mb-2">Email</label>
+                                <input type="email" name="email" class="form-control" placeholder="Email">
+                            </div>                            
+                            <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Phone Number</label>
                                 <input type="text" name="phone" class="form-control" placeholder="Phone Number">
                             </div>
-                            <div class="col-lg-6">
-                                <label class="fsz-16 mb-2">Email</label>
-                                <input type="email" name="email" class="form-control" placeholder="Email">
-                            </div>
                         </div>
                     </div>
-                     <div class="form-group mb-4">
+                     <div class="form-group mb-3">
                         <div class="row">
                             <div class="col-lg-6">
-                                <label class="fsz-16 mb-2">Address</label>
-                                <input type="text" name="address" class="form-control" placeholder="Address">
-                            </div>
+                                <label class="fsz-16 mb-2">Password</label>
+                                <input type="password" name="password" class="form-control" placeholder="Password">
+                            </div>                            
                             <div class="col-lg-6">
-                                <label class="fsz-16 mb-2">Age</label>
-                                <input type="text" name="age" class="form-control" placeholder="Age">
+                                <label class="fsz-16 mb-2">Confirm Password</label>
+                                <input type="password" name="password_confirmation" class="form-control" placeholder="Confirm Password">
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label class="fsz-16 mb-2">Message</label>
-                        <textarea name="message" class="form-control" rows="5" placeholder="Your Message"></textarea>
                     </div>
                     <button type="submit" class="butn bg-gold1 rounded-pill fsz-16 hover-bg-white"> Submit <i class="fas fa-arrow-right ms-2"></i> </button>
                 </form>
@@ -84,4 +68,5 @@
         </div>
     </div>
 </section>
+
 @endsection

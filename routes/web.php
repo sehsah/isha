@@ -15,3 +15,4 @@ Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/questionnaire', [PageController::class, 'questionnaire'])->name('questionnaire');
 Route::post('/questionnaire', [PageController::class, 'submitQuestionnaire'])->name('questionnaire.submit');
 Route::get('/faq', [PageController::class, 'faq'])->name('faq');
+Route::get('/register', [PageController::class, 'register'])->name('register');

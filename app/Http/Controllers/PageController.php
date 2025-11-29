@@ -37,6 +37,11 @@ class PageController extends Controller
         return view('pages.faq');
     }
 
+    public function register()
+    {
+        return view('auth.register');
+    }
+
     public function submitQuestionnaire(Request $request)
     {
         // In a real application, you would add validation here.
