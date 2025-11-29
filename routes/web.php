@@ -14,3 +14,4 @@ Route::get('/projects', [PageController::class, 'projects'])->name('projects');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/questionnaire', [PageController::class, 'questionnaire'])->name('questionnaire');
 Route::post('/questionnaire', [PageController::class, 'submitQuestionnaire'])->name('questionnaire.submit');
+Route::get('/faq', [PageController::class, 'faq'])->name('faq');

@@ -265,66 +265,6 @@
     <!--  End portfolio  -->
 
 
-    <!--  Start faq  -->
-    <section id="faq" class="tc-testimonials-st1">
-        <div class="container">
-            <div class="slider-content col-lg-8 mx-auto">
-                <div class="lg-title txt-stroke-wh fsz-100 op-1 mb-30 js-splittext-lines"> Frequently Asked Questions </div>
-                <div class="testimonials-slider wow fadeInUp slow" data-wow-delay="0.1s">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="user-info mb-30 d-flex align-items-center">
-                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
-                                    <span class="txt fsz-16 text-uppercase"> What are the payment terms and methods? </span>
-                                </div>
-                                <div class="main-txt cr-999 sub-font">
-                                    <div class="text fsz-30 mb-20 lh-3"> We offer flexible payment terms structured around project milestones. Accepted payment methods include credit/debit cards, and online payments. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="user-info mb-30 d-flex align-items-center">
-                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
-                                    <span class="txt fsz-16 text-uppercase"> How long will the design process take? </span>
-                                </div>
-                                <div class="main-txt cr-999 sub-font">
-                                    <div class="text fsz-30 mb-20 lh-3"> The timeline for each project varies depending on its size and complexity. Our welcome guide provides estimated timelines for each phase of the project. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="user-info mb-30 d-flex align-items-center">
-                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
-                                    <span class="txt fsz-16 text-uppercase"> What if I need to make changes during the project? </span>
-                                </div>
-                                <div class="main-txt cr-999 sub-font">
-                                    <div class="text fsz-30 mb-20 lh-3"> Changes are a natural part of the design process. We strive to accommodate changes while keeping the project on schedule and within budget. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="user-info mb-30 d-flex align-items-center">
-                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
-                                    <span class="txt fsz-16 text-uppercase"> How do you handle procurement and installation? </span>
-                                </div>
-                                <div class="main-txt cr-999 sub-font">
-                                    <div class="text fsz-30 mb-20 lh-3"> We manage all aspects of procurement and installation, ensuring a seamless process and taking the stress off your shoulders. </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination swiper-pagination-st1 position-relative mt-30 text-start"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  End faq  -->
-
-
     <!--  Start instagram  -->
     <section class="tc-instagram-st1">
         <div class="container">

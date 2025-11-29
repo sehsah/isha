@@ -28,9 +28,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('contact') }}">Register</a>
-                </li>
             </ul>
             <div class="nav-side d-flex align-items-center">
                {{--  <a href="#" class="contact-item d-flex align-items-center">
