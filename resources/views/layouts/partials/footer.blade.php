@@ -35,7 +35,7 @@
                 <div class="col-lg-6">
                     <div class="foot-links text-lg-end mt-30">
                         <a href="{{ route('about') }}"> <span class="txt"> About </span> </a>
-                        <a href="{{ route('projects') }}"> <span class="txt"> Projects </span> </a>
+                        <a href="{{ route('works') }}"> <span class="txt"> Projects </span> </a>
                         <a href="{{ route('questionnaire') }}"> <span class="txt"> Questionnaire </span> </a>
                         <a href="{{ route('contact') }}"> <span class="txt"> Contact </span> </a>
                     </div>

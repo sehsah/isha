@@ -15,10 +15,6 @@
     <!--  Start portfolio  -->
     <section id="what-to-expect" class="tc-portfolio-st1">
         <div class="container">
-            <div class="section-head-st1 mb-60 col-lg-6 js-splittext-lines">
-                <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('assets/img/fav_gold.svg') }}" alt=""> </span> What To Expect </h6>
-                <h2 class="fsz-50"> From Concept to Reality </h2>
-            </div>
             <div class="portfolio-slider float-cursor-container wow fadeInUp slow" data-wow-delay="0.1s">
                 <div class="swiper-wrapper">
                     @foreach ($projects as $project)

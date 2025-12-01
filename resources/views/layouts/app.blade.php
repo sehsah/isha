@@ -67,7 +67,7 @@
             <ul>
                 <li> <a href="{{ route('home') }}" class="main-link"> Home </a> </li>
                 <li><a href="{{ route('about') }}" class="main-link"> About Us </a></li>
-                <li><a href="{{ route('projects') }}" class="main-link"> Projects </a></li>
+                <li><a href="{{ route('works') }}" class="main-link"> Projects </a></li>
                 <li><a href="{{ route('questionnaire') }}" class="main-link"> Questionnaire </a></li>
                 <li><a href="{{ route('contact') }}" class="main-link"> Contact </a></li>
                 <li><a href="{{ route('faq') }}" class="main-link"> FAQ </a></li>

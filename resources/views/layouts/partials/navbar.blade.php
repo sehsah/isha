@@ -20,7 +20,7 @@
                     <a class="nav-link" href="{{ route('services') }}">Our Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('projects') }}">Our Works</a>
+                    <a class="nav-link" href="{{ route('works') }}">Our Works</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('how-to') }}">How To</a>

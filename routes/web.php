@@ -10,7 +10,7 @@ Route::get('/', function () {
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');
-Route::get('/projects', [PageController::class, 'projects'])->name('projects');
+Route::get('/works', [PageController::class, 'projects'])->name('works');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/questionnaire', [PageController::class, 'questionnaire'])->name('questionnaire');
 Route::post('/questionnaire', [PageController::class, 'submitQuestionnaire'])->name('questionnaire.submit');
