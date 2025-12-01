@@ -169,7 +169,7 @@
     <!--  End services  -->
 
     <!--  Start process  -->
-    <section id="process" class="tc-process-st1">
+    <section id="how-to" class="tc-process-st1">
         <div class="container">
             <div class="section-head-st2 text-center col-lg-9 mx-auto mb-60 js-splittext-lines">
                 <div class="sub-title d-inline-block py-1 px-4 rounded-pill border brd-light text-uppercase mb-30"> Our Process </div>
