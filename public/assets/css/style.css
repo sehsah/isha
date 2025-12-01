@@ -7184,3 +7184,10 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 .sub-bg .tc-navbar-st1 {
     position: relative;
 }
+
+p.title_desc {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+}

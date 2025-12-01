@@ -7,14 +7,13 @@
     <header id="home" class="tc-header-st1 bg-img" data-background="{{ asset('assets/img/hero.jpg') }}">
         <div class="container">
             <div class="content">
-                <h1 class="title"> ISHA Interior E-Design Studio </h1>
+                <p class="title_desc"> At ISHA Interior Design Studio, we believe that interior design is the art of harmonizing beauty with purpose. Our mission is to craft refined spaces where functionality meets personal expression – each design telling a unique story, embodying a vision, and enriching the lives of those who experience it.</p>
                 <div class="info-card">
                     <div class="img icon-80 rounded-circle overflow-hidden me-20 shrink-0">
                         <img src="{{ asset('assets/img/hero1.jpg') }}" alt="" class="img-cover">
                     </div>
                     <div class="cont">
-                        <h6 class="fsz-24 mb-1"> Creating a harmonious blend of aesthetics and functionality. </h6>
-                        <div class="text fsz-16"> Your Vision, Our Expertise </div>
+                        <h6 class="fsz-24 mb-1">  Lets start your interior design journey </h6>
                     </div>
                 </div>
                 <div class="row justify-content-between">
