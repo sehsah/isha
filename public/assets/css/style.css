@@ -1456,7 +1456,7 @@
 /* --------------- header st1 --------------- */
 .tc-header-st1 {
   position: relative;
-  padding: 200px 0 300px;
+  padding: 200px 0 100px;
   z-index: 20;
   overflow: hidden;
 }

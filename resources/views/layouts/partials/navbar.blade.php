@@ -17,13 +17,13 @@
                     <a class="nav-link" href="{{ route('about') }}">About Us</a>
                 </li>                
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Our Services</a>
+                    <a class="nav-link" href="{{ route('services') }}">Our Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('projects') }}">Our Works</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#how-to">How To</a>
+                    <a class="nav-link" href="{{ route('how-to') }}">How To</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('contact') }}">Contact</a>

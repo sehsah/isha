@@ -12,43 +12,32 @@
     </div>
     <img src="assets/img/header_shaps.png" alt="" class="header_shaps">
 </header>
-<section class="tc-portfolio-st1">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="portfolio-card">
-                    <div class="img">
-                        <img src="../assets/img/1.jpg" alt="" class="img-cover">
-                    </div>
-                    <div class="info-card">
-                        <span class="tag"> Architecture </span>
-                        <h2 class="fsz-40"> Blending futuristic building </h2>
-                    </div>
+    <!--  Start portfolio  -->
+    <section id="what-to-expect" class="tc-portfolio-st1">
+        <div class="container">
+            <div class="section-head-st1 mb-60 col-lg-6 js-splittext-lines">
+                <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('assets/img/fav_gold.svg') }}" alt=""> </span> What To Expect </h6>
+                <h2 class="fsz-50"> From Concept to Reality </h2>
+            </div>
+            <div class="portfolio-slider float-cursor-container wow fadeInUp slow" data-wow-delay="0.1s">
+                <div class="swiper-wrapper">
+                    @foreach ($projects as $project)
+                        <div class="swiper-slide">
+                            <div class="portfolio-card">
+                                <div class="img">
+                                    <img src="{{ asset($project['image']) }}" alt="" class="img-cover">
+                                    <h2 class="fsz-50"> {{ $project['title'] }} </h2>
+                                    <p class="fsz-16"> {{ $project['description'] }} </p>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="portfolio-card">
-                    <div class="img">
-                        <img src="../assets/img/2.jpg" alt="" class="img-cover">
-                    </div>
-                    <div class="info-card">
-                        <span class="tag"> Architecture </span>
-                        <h2 class="fsz-40"> Blending futuristic building </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="portfolio-card">
-                    <div class="img">
-                        <img src="../assets/img/1.jpg" alt="" class="img-cover">
-                    </div>
-                    <div class="info-card">
-                        <span class="tag"> Architecture </span>
-                        <h2 class="fsz-40"> Blending futuristic building </h2>
-                    </div>
-                </div>
-            </div>
+            <div class="swiper-progress"> <span class="swiper-progress-bar"></span> </div>
+            <div class="numbers-pagination sub-font"></div>
         </div>
-    </div>
-</section>
+    </section>
+    <!--  End portfolio  -->
 @endsection

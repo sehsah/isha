@@ -9,6 +9,16 @@ class PageController extends Controller
 {
     public function home()
     {
+        return view('home');
+    }
+
+    public function about()
+    {
+        return view('pages.about');
+    }
+
+    public function projects()
+    {
         $projects = [
             [
                 'title' => 'Modern Living Room Design',
@@ -100,18 +110,8 @@ class PageController extends Controller
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
                 'image' => 'projects/projects18.jpg',                
             ],
-        ];
-        return view('home', compact('projects'));
-    }
-
-    public function about()
-    {
-        return view('pages.about');
-    }
-
-    public function projects()
-    {
-        return view('pages.projects');
+        ];        
+        return view('pages.projects', ['projects' => $projects]);
     }
 
     public function contact()
@@ -140,5 +140,15 @@ class PageController extends Controller
         QuestionnaireResponse::create($request->all());
 
         return back()->with('success', 'Thank you for your submission! We have received your information and will be in touch shortly.');
+    }
+
+    public function howTo()
+    {
+        return view('pages.how-to');
+    }
+
+    public function services()
+    {
+        return view('pages.services');
     }
 }
