@@ -16,7 +16,7 @@
     <!--  Start about  -->
     <section id="about" class="tc-about-st1">
         <div class="container-fluid">
-            <div class="about-card">
+            <div class="about-card mt-0">
                 <div class="row justify-content-between">
                     <div class="col-lg-4">
                         <div class="img">
@@ -37,16 +37,20 @@
                             </div>
                             <div class="progress-wrapper pt-20">
                                 <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-12">
                                         <div class="content-card wow fadeInUp slow" data-wow-delay="0.1s">
-                                            <h5 class="fsz-24 mb-15">Our Values</h5>
-                                            <p class="fsz-16 cr-999"><strong>Innovation and Originality:</strong> We thrive on innovation and originality. Each project is a blank canvas where we bring together artistic vision and functional design to create spaces that are as unique as the people who inhabit them.</p>
+                                            <h5 class="fsz-24 mb-15">O U R&nbsp; M I S S I O N</h5>
+                                            <p class="fsz-16 cr-999">
+                                                At ISHA Interior E-Design Studio, we believe that interior design is the art of harmonizing beauty with purpose. Our mission is to craft refined spaces where functionality meets personal expression – each design telling a unique story, embodying a vision, and enriching the lives of those who experience it.
+                                            </p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-12">
                                         <div class="content-card wow fadeInUp slow" data-wow-delay="0.2s">
-                                             <h5 class="fsz-24 mb-15">&nbsp;</h5>
-                                            <p class="fsz-16 cr-999"><strong>Honesty and Transparency:</strong> Honesty and transparency are the foundation of our business. We believe in building trust through ethical practices. You can count on us to provide honest advice, and to deliver on our promises without compromise.</p>
+                                            <h5 class="fsz-24 mb-15">O U R&nbsp; V I S I O N</h5>
+                                            <p class="fsz-16 cr-999">
+                                                To inspire people to live beautifully and intentionally. At ISHA Interior Design Studio, we envision a world where every space tells a story – blending comfort, creativity, and functionality to create environments that feel uniquely personal and deeply meaningful.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

@@ -6,8 +6,8 @@
 <header class="tc-inner-header-style1">
     <div class="container">
         <div class="section-head-st1">
-            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="assets/img/fav_gold.svg" alt=""> </span> Our Projects </h6>
-            <h2 class="fsz-50"> A Showcase of Our Work </h2>
+            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="assets/img/fav_gold.svg" alt=""> </span> How To  </h6>
+            <h2 class="fsz-50"> A Simple Path to Your Dream Space</h2>
         </div>
     </div>
     <img src="assets/img/header_shaps.png" alt="" class="header_shaps">
@@ -17,10 +17,6 @@
     <!--  Start process  -->
     <section id="how-to" class="tc-process-st1">
         <div class="container">
-            <div class="section-head-st2 text-center col-lg-9 mx-auto mb-60 js-splittext-lines">
-                <div class="sub-title d-inline-block py-1 px-4 rounded-pill border brd-light text-uppercase mb-30"> Our Process </div>
-                <h2 class="fsz-90 lh-2"> A Simple Path to Your Dream Space </h2>
-            </div>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="process-card wow fadeInUp slow" data-wow-delay="0.1s">
