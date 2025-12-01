@@ -349,7 +349,7 @@
 .tc-demos .demo-card {
   position: relative;
   border-radius: 0;
-  background-color: #151515;
+  background-color: #f1f1f1;
   border: 1px solid #fff1;
   overflow: hidden;
   margin-top: 30px;
@@ -1154,7 +1154,7 @@
 .tc-about-st1 .about-card {
   position: relative;
   padding: 50px 80px 0;
-  background-color: #151515;
+  background-color: #f1f1f1;
   margin-top: -380px;
   z-index: 10;
 }
@@ -1171,7 +1171,7 @@
   top: 40px;
   width: calc(100% - 80px);
   border-radius: 50%;
-  background-color: #151515;
+  background-color: #f1f1f1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1388,7 +1388,7 @@
 .tc-footer-st1 {
   position: relative;
   padding-top: 120px;
-  background-color: #151515;
+  background-color: #f1f1f1;
   z-index: 10;
 }
 .tc-footer-st1 .social-links {
@@ -1632,7 +1632,7 @@
 }
 .tc-navbar-st1 .navbar-nav .nav-item .nav-link {
   position: relative;
-  color: #fff;
+  color: #777;
   -webkit-margin-end: 30px;
           margin-inline-end: 30px;
   font-size: 1rem;
@@ -1696,7 +1696,7 @@
 .tc-portfolio-st1 {
   position: relative;
   padding: 120px 0;
-  background-color: #151515;
+  background-color: #e0e0e0;
 }
 .tc-portfolio-st1 .portfolio-slider {
   position: relative;
@@ -2180,7 +2180,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 20px 50px;
-  background-color: #151515;
+  background-color: #f1f1f1;
   margin: 50px auto 0;
   width: 80%;
 }
@@ -2468,7 +2468,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 /* --------------- footer st2 --------------- */
 .tc-footer-st2 {
   position: relative;
-  background-color: #151515;
+  background-color: #f1f1f1;
   padding-top: 120px;
 }
 .tc-footer-st2 .foot-shap {
@@ -2648,7 +2648,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   left: 0;
   width: 100%;
   padding: 30px 4vw;
-  background-color: #151515;
+  background-color: #f1f1f1;
   color: #fff;
   z-index: 99;
 }
@@ -3120,7 +3120,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   top: 0;
   width: 100%;
   height: calc(100% - 100px);
-  background: #151515;
+  background: #f1f1f1;
   -webkit-box-shadow: 0px 14px 44px 20px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 14px 44px 20px rgba(0, 0, 0, 0.05);
 }
@@ -3245,7 +3245,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
   margin-bottom: 1px;
-  background-color: #151515;
+  background-color: #f1f1f1;
   height: 100%;
 }
 .tc-blog-st3 .post-card .img {
@@ -3401,7 +3401,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 .tc-footer-st1 {
   position: relative;
   padding-top: 120px;
-  background-color: #151515;
+  background-color: #f1f1f1;
   z-index: 20;
   overflow: hidden;
 }
@@ -3450,7 +3450,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 .tc-footer-st1 .foot {
   position: relative;
   padding: 30px 0;
-  background-color: #101010;
+  background-color: #e0e0e0;
 }
 .tc-footer-st1 .lines-st2 {
   position: absolute;
@@ -3674,7 +3674,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   display: block;
   padding: 30px;
   text-align: center;
-  background-color: #151515;
+  background-color: #f1f1f1;
   border: 1px solid transparent;
 }
 .tc-numbers-st3 .num-card:hover {
@@ -4147,7 +4147,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
   margin-bottom: 1px;
-  background-color: #151515;
+  background-color: #f1f1f1;
   height: 100%;
 }
 .tc-blog-st4 .post-card .img {
@@ -4234,7 +4234,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 .tc-faq-st4 {
   position: relative;
   padding: 120px 0;
-  background-color: #151515;
+  background-color: #f1f1f1;
   z-index: 20;
 }
 .tc-faq-st4 .accordion .accordion-item {
@@ -4344,7 +4344,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 .tc-footer-st4 {
   position: relative;
   padding-top: 120px;
-  background-color: #151515;
+  background-color: #f1f1f1;
   overflow: hidden;
 }
 .tc-footer-st4 .social-links {
@@ -4460,7 +4460,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 }
 .tc-header-st4 .side-nav-st4 {
   position: relative;
-  background-color: #151515;
+  background-color: #f1f1f1;
   padding: 60px 50px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5114,7 +5114,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   position: relative;
   padding: 120px 4vw 50px;
   text-align: center;
-  background-color: #151515;
+  background-color: #f1f1f1;
   z-index: 20;
 }
 .tc-innerheader-st6::after {
@@ -5863,7 +5863,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  background-color: #151515;
+  background-color: #f1f1f1;
   margin-top: 120px;
 }
 .tc-post-det-st18 .comment-form .form-title {
@@ -5879,7 +5879,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   margin-bottom: 10px;
 }
 .tc-post-det-st18 .comment-form .form-control {
-  background-color: #151515;
+  background-color: #f1f1f1;
   border-radius: 0;
   border: 1px solid #fff1;
   min-height: 50px;
@@ -5953,7 +5953,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  background-color: #151515;
+  background-color: #f1f1f1;
   margin-top: -90px;
 }
 .tc-contact-st20 .form-wrapper .contact-info .title {
@@ -6007,7 +6007,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 .tc-faq-st4 {
   position: relative;
   padding: 120px 0;
-  background-color: #151515;
+  background-color: #f1f1f1;
   z-index: 20;
 }
 .tc-faq-st4 .accordion .accordion-item {
@@ -6178,7 +6178,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
   margin-bottom: 1px;
-  background-color: #151515;
+  background-color: #f1f1f1;
   height: 100%;
 }
 .tc-portfolio-st12 .portfolio-card .img {
@@ -6698,7 +6698,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  background-color: #151515;
+  background-color: #f1f1f1;
 }
 .widgets .widget-card .widget-title {
   position: relative;
@@ -6752,7 +6752,7 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
   margin-bottom: 10px;
 }
 .widgets .widget-card .widget-body .form .form-control {
-  background-color: #151515;
+  background-color: #f1f1f1;
   border-radius: 0;
   border: 1px solid #fff1;
   min-height: 50px;

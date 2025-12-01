@@ -1732,7 +1732,7 @@ span,
 img,
 strong {
   display: inline-block;
-  color: inherit;
+  color: #777;
   text-decoration: none;
 }
 

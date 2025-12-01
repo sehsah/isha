@@ -16,12 +16,6 @@
 
 <!--  Start services  -->
 <section id="services" class="tc-services-st1">
-    <div class="container">
-        <div class="section-head-st2 text-center col-lg-9 mx-auto mb-60 js-splittext-lines">
-            <div class="sub-title d-inline-block py-1 px-4 rounded-pill border brd-light text-uppercase mb-30"> Why Choose E-Design? </div>
-            <h2 class="fsz-90 lh-2"> A Modern Approach to Interior Design </h2>
-        </div>
-    </div>
     <div class="content">
         <div class="row gx-0">
             <div class="col-lg-5">
