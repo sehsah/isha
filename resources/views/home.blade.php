@@ -176,32 +176,39 @@
                 <h2 class="fsz-90 lh-2"> A Simple Path to Your Dream Space </h2>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="process-card wow fadeInUp slow" data-wow-delay="0.1s">
                         <div class="icon"><span class="fsz-30">01</span></div>
-                        <h5 class="fsz-24 mb-15">Share Your Vision</h5>
-                        <p class="fsz-16 cr-999">Upload your floorplan and full details, or request in-home measurements.</p>
+                        <h5 class="fsz-24 mb-15">Fill Out the Design Questionnaire</h5>
+                        <p class="fsz-16 cr-999">Tell us about your space, style, needs, and vision through our detailed online form. This helps us understand your lifestyle and preferences.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-5">
                     <div class="process-card wow fadeInUp slow" data-wow-delay="0.2s">
                         <div class="icon"><span class="fsz-30">02</span></div>
-                        <h5 class="fsz-24 mb-15">Tell Us More</h5>
-                        <p class="fsz-16 cr-999">Answer our questionnaire to provide us with more insight into your style and needs.</p>
+                        <h5 class="fsz-24 mb-15">Share Your Space</h5>
+                        <p class="fsz-16 cr-999">Upload photos, videos, and measurements of your space. Or, if you prefer a hands-off approach, you can Request a site visit, and one of our engineers will handle the measurements for you.</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="process-card wow fadeInUp slow" data-wow-delay="0.3s">
                         <div class="icon"><span class="fsz-30">03</span></div>
-                        <h5 class="fsz-24 mb-15">Design Concept</h5>
-                        <p class="fsz-16 cr-999">Receive your initial design concept, including mood boards, color palettes, and floor plans.</p>
+                        <h5 class="fsz-24 mb-15">Let Us Design</h5>
+                        <p class="fsz-16 cr-999">Our designer will craft a personalized concept tailored to your space, style, and goals—blending beauty, function, and soul.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-5">
                     <div class="process-card wow fadeInUp slow" data-wow-delay="0.4s">
                         <div class="icon"><span class="fsz-30">04</span></div>
-                        <h5 class="fsz-24 mb-15">Final Package</h5>
-                        <p class="fsz-16 cr-999">Receive the final package with detailed documents to implement the design.</p>
+                        <h5 class="fsz-24 mb-15">Receive Your Digital Design Package</h5>
+                        <p class="fsz-16 cr-999">You’ll receive a design concept first , if approved and everything is ok, you will receive the complete e-design package delivered to your inbox, including layout plans, mood boards, furniture selections, shopping list, and styling tips..</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="process-card wow fadeInUp slow" data-wow-delay="0.5s">
+                        <div class="icon"><span class="fsz-30">05</span></div>
+                        <h5 class="fsz-24 mb-15">Bring It to Life</h5>
+                        <p class="fsz-16 cr-999">With your design in hand, you can implement the transformation at your own pace! </p>
                     </div>
                 </div>
             </div>
@@ -218,84 +225,25 @@
             </div>
             <div class="portfolio-slider float-cursor-container wow fadeInUp slow" data-wow-delay="0.1s">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="portfolio-card">
-                            <div class="img">
-                                <img src="{{ asset('assets/img/1.jpg') }}" alt="" class="img-cover">
-                            </div>
-                            <div class="info-card">
-                                <span class="tag"> Step 1 </span>
-                                <h2 class="fsz-50"> Detailed Initial Concepts </h2>
-                                <p class="fsz-16">Mood boards, concept boards, colour palettes, and floor plans to scale. Once all is approved, we'll move on to the next step.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="portfolio-card">
-                            <div class="img">
-                                <img src="{{ asset('assets/img/2.jpg') }}" alt="" class="img-cover">
-                            </div>
-                            <div class="info-card">
-                                <span class="tag"> Step 2 </span>
-                                <h2 class="fsz-50"> The Final Package </h2>
-                                <p class="fsz-16">Detailed technical documents including furniture placements, material selections, lighting plans, rendered visuals, a shopping list with links, and a contractors list.</p>
+                    @foreach ($projects as $project)
+                        <div class="swiper-slide">
+                            <div class="portfolio-card">
+                                <div class="img">
+                                    <img src="{{ asset($project['image']) }}" alt="" class="img-cover">
+                                    <h2 class="fsz-50"> {{ $project['title'] }} </h2>
+                                    <p class="fsz-16"> {{ $project['description'] }} </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="portfolio-card">
-                            <div class="img">
-                                <img src="{{ asset('assets/img/1.jpg') }}" alt="" class="img-cover">
-                            </div>
-                            <div class="info-card">
-                                <span class="tag"> Step 3 </span>
-                                <h2 class="fsz-50"> Implementation </h2>
-                                <p class="fsz-16">Contactors and suppliers will have the full details to implement the design, bringing your new space to life.</p>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+
                 </div>
-                <div class="swiper-pagination swiper-pagination-st1"></div>
-                <div class="float-cursor"> Hold And Drag </div>
             </div>
             <div class="swiper-progress"> <span class="swiper-progress-bar"></span> </div>
             <div class="numbers-pagination sub-font"></div>
         </div>
     </section>
     <!--  End portfolio  -->
-
-
-    <!--  Start instagram  -->
-    <section class="tc-instagram-st1">
-        <div class="container">
-            <div class="cards float-cursor-container">
-                <div class="row">
-                    <div class="col-lg-3 col-6">
-                        <a href="#" class="img wow fadeInUp slow" data-wow-delay="0.1s">
-                            <img src="{{ asset('assets/img/insta/1.jpg') }}" alt="" class="img-cover wow clippy-img">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <a href="#" class="img wow fadeInUp slow" data-wow-delay="0.2s">
-                            <img src="{{ asset('assets/img/insta/2.jpg') }}" alt="" class="img-cover wow clippy-img">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <a href="#" class="img wow fadeInUp slow" data-wow-delay="0.3s">
-                            <img src="{{ asset('assets/img/insta/3.jpg') }}" alt="" class="img-cover wow clippy-img">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <a href="#" class="img wow fadeInUp slow" data-wow-delay="0.4s">
-                            <img src="{{ asset('assets/img/insta/4.jpg') }}" alt="" class="img-cover wow clippy-img">
-                        </a>
-                    </div>
-                </div>
-                <div class="float-cursor"> <div class="cont"> <span class="icon d-block fsz-20 mb-2"> <i class="fab fa-instagram"></i> </span> <span class="txt"> instagram </span> </div> </div>
-            </div>
-        </div>
-    </section>
-    <!--  End instagram  -->
 
 
     <!--  Start contact  -->

@@ -20,32 +20,10 @@
                             <div class="testi-card">
                                 <div class="user-info mb-30 d-flex align-items-center">
                                     <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
-                                    <span class="txt fsz-16 text-uppercase"> What are the payment terms and methods? </span>
+                                    <span class="txt fsz-16 text-uppercase"> How involved will I be in the design process? </span>
                                 </div>
                                 <div class="main-txt cr-999 sub-font">
-                                    <div class="text fsz-30 mb-20 lh-3"> We offer flexible payment terms structured around project milestones. Accepted payment methods include credit/debit cards, and online payments. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide mb-4">
-                            <div class="testi-card">
-                                <div class="user-info mb-30 d-flex align-items-center">
-                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
-                                    <span class="txt fsz-16 text-uppercase"> How long will the design process take? </span>
-                                </div>
-                                <div class="main-txt cr-999 sub-font">
-                                    <div class="text fsz-30 mb-20 lh-3"> The timeline for each project varies depending on its size and complexity. Our welcome guide provides estimated timelines for each phase of the project. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide mb-4">
-                            <div class="testi-card">
-                                <div class="user-info mb-30 d-flex align-items-center">
-                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
-                                    <span class="txt fsz-16 text-uppercase"> What if I need to make changes during the project? </span>
-                                </div>
-                                <div class="main-txt cr-999 sub-font">
-                                    <div class="text fsz-30 mb-20 lh-3"> Changes are a natural part of the design process. We strive to accommodate changes while keeping the project on schedule and within budget. </div>
+                                    <div class="text fsz-30 mb-20 lh-3"> Your involvement is crucial to ensure the final design meets your expectations. Our welcome guide outlines how we collaborate with you throughout the project, including regular updates and meetings to review progress and make decisions.</div>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +34,40 @@
                                     <span class="txt fsz-16 text-uppercase"> How do you handle procurement and installation? </span>
                                 </div>
                                 <div class="main-txt cr-999 sub-font">
-                                    <div class="text fsz-30 mb-20 lh-3"> We manage all aspects of procurement and installation, ensuring a seamless process and taking the stress off your shoulders. </div>
+                                    <div class="text fsz-30 mb-20 lh-3"> We manage all aspects of procurement and installation, ensuring a seamless process. Our guide explains how we handle purchasing, delivery, and the setup of furniture and materials, taking the stress off your shoulders and ensuring everything aligns with the design plan. </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide mb-4">
+                            <div class="testi-card">
+                                <div class="user-info mb-30 d-flex align-items-center">
+                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
+                                    <span class="txt fsz-16 text-uppercase">How long will the design process take? </span>
+                                </div>
+                                <div class="main-txt cr-999 sub-font">
+                                    <div class="text fsz-30 mb-20 lh-3"> The timeline for each project varies depending on its size and complexity. Our welcome guide provides estimated timelines for each phase of the project, from initial design to the final project, helping you understand the overall duration. </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide mb-4">
+                            <div class="testi-card">
+                                <div class="user-info mb-30 d-flex align-items-center">
+                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
+                                    <span class="txt fsz-16 text-uppercase"> What if I need to make changes during the project?</span>
+                                </div>
+                                <div class="main-txt cr-999 sub-font">
+                                    <div class="text fsz-30 mb-20 lh-3">Changes are a natural part of the design process. The welcome guide explains our policy on revisions and additional requests. We strive to accommodate changes while keeping the project on schedule and within budget.. </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide mb-4">
+                            <div class="testi-card">
+                                <div class="user-info mb-30 d-flex align-items-center">
+                                    <img src="{{ asset('assets/img/qt.svg') }}" alt="" class="qt th-40 me-80">
+                                    <span class="txt fsz-16 text-uppercase"> How involved will I be in the design process?</span>
+                                </div>
+                                <div class="main-txt cr-999 sub-font">
+                                    <div class="text fsz-30 mb-20 lh-3">Your involvement is crucial to ensure the final design meets your expectations. Our welcome guide outlines how we collaborate with you throughout the project, including regular updates and meetings to review progress and make decisions.</div>
                                 </div>
                             </div>
                         </div>

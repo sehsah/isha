@@ -9,7 +9,99 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $projects = [
+            [
+                'title' => 'Modern Living Room Design',
+                'description' => 'A sleek and contemporary living room featuring minimalist furniture, neutral colors, and large windows for natural light.',
+                'image' => 'projects/projects1.jpg',
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects2.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects3.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects4.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects5.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects6.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects7.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects8.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects9.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects10.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects11.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects12.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects13.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects14.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects15.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects16.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects17.jpg',                
+            ],
+            [
+                'title' => 'Cozy Bedroom Retreat',
+                'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
+                'image' => 'projects/projects18.jpg',                
+            ],
+        ];
+        return view('home', compact('projects'));
     }
 
     public function about()
