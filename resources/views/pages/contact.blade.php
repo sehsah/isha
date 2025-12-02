@@ -12,17 +12,7 @@
     </div>
     <img src="assets/img/header_shaps.png" alt="" class="header_shaps">
 </header>
-<section class="tc-contact-st1">
-    <div class="container">
-        <div class="title-wrapper col-lg-9 mx-auto text-center js-splittext-lines">
-            <div class="fsz-24 text-uppercase cr-gold1 ltspc-2 mb-10"> Have a project in mind? </div>
-            <h2 class="fsz-100 text-capitalize lh-1"> Let's Create Your Dream Space </h2>
-        </div>
-        <div class="main-img">
-            <img src="../assets/img/contact.png" alt="" class="img-contain">
-        </div>
-    </div>
-</section>
+
 
 <section class="tc-contact-form-st1">
     <div class="container">
@@ -78,7 +68,7 @@
                         <label class="fsz-16 mb-2">Message</label>
                         <textarea name="message" class="form-control" rows="5" placeholder="Your Message"></textarea>
                     </div>
-                    <button type="submit" class="butn bg-gold1 rounded-pill fsz-16 hover-bg-white"> Submit <i class="fas fa-arrow-right ms-2"></i> </button>
+                    <button type="submit" class="butn bg-gold1 rounded-pill fsz-16"> Submit <i class="fas fa-arrow-right ms-2"></i> </button>
                 </form>
             </div>
         </div>

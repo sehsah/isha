@@ -57,10 +57,6 @@
 </head>
 
 <body class="home-st1 light-theme">
-
-    <div class="lines"><span></span><span></span><span></span><span></span><span></span></div>
-
-
     <!--  Start sidemenu  -->
     <div class="tc-sidemenu-st1">
         <div class="main-links">

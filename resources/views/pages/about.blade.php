@@ -28,10 +28,6 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="info">
-                            <div class="section-head-st1 mb-30 js-splittext-lines">
-                                <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('assets/img/fav_gold.svg') }}" alt=""> </span> About Us </h6>
-                                <h2 class="fsz-50"> Design That Inspires and Elevates </h2>
-                            </div>
                             <div class="text fsz-14 cr-999"> 
                                 At ISHA Interior E-Design Studio, we believe that interior design is more than just arranging furniture or picking out paint colors. It's about creating a harmonious blend of aesthetics and functionality, where every element serves a purpose and every detail enhances the experience of living or working in the space. We see each project as a unique opportunity to tell a story, express a vision, and enrich the lives of those who use the space.
                             </div>
@@ -60,7 +56,6 @@
                 </div>
             </div>
         </div>
-        <img src="{{ asset('assets/img/line1.svg') }}" alt="" class="line wow">
     </section>
     <!--  End about  -->
 @endsection

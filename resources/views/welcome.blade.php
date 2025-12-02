@@ -243,7 +243,6 @@
                         </div>
                     </div>
                 </div>
-                <img src="{{ asset('img/line1.svg') }}" alt="" class="line wow">
             </section>
             <!--  End about  -->
 

@@ -1499,12 +1499,12 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #999;
+  background: #fffcf5;
   border-radius: 10px;
 }
 
 html::-webkit-scrollbar-corner {
-  background: #999;
+  background: #fffcf5;
   border-radius: 10px;
 }
 
@@ -1516,7 +1516,7 @@ body {
   font-size: 14px;
   overflow-x: hidden;
   position: relative;
-  color: #999;
+  color: #fffcf5;
 }
 body.dark-theme {
   background-color: #111;
@@ -1629,10 +1629,9 @@ body.light-theme .dropdown .dropdown-menu .dropdown-item:hover {
 .form-group .form-control {
   position: relative;
   min-height: 50px;
-  background-color: #151515;
-  border: 1px solid #fff1;
+  background-color: #fffcf5;
   border-radius: 0;
-  color: #fff;
+  color: #909090;
 }
 .form-group .form-control::-webkit-input-placeholder {
   color: #fff;
@@ -1655,7 +1654,7 @@ body.light-theme .dropdown .dropdown-menu .dropdown-item:hover {
   opacity: 0.3;
 }
 .form-group .form-control:focus {
-  background-color: #151515;
+  background-color: #fffcf5;
   border: 1px solid #fff5;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1883,7 +1882,7 @@ small.text {
   top: 0;
   width: 100vw;
   height: 110vh;
-  fill: #000;
+  fill: #fffcf5;
 }
 
 .loader-wrap .loader-wrap-heading .load-text {
@@ -2686,8 +2685,8 @@ input:focus {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  color: #999;
-  border: 1px solid #999;
+  color: #fffcf5;
+  border: 1px solid #fffcf5;
   font-size: 11px;
   text-align: center;
   padding: 7px;
@@ -2874,18 +2873,7 @@ input:focus {
 .butn.md-butn {
   padding: 10px 25px;
 }
-.butn:hover {
-  -webkit-box-shadow: 4px 5px 0 #0005;
-          box-shadow: 4px 5px 0 #0005;
-  -webkit-box-shadow: 7px 10px 15px #0004;
-          box-shadow: 7px 10px 15px #0004;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-}
-.butn.hvr-scale:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
+
 .butn.hvr-txt-trans {
   position: relative;
   overflow: hidden;
@@ -2941,7 +2929,7 @@ input:focus {
 /* --------------- variable --------------- */
 :root {
   --cr-gold1:#BF8173;
-  --cr-dark1:#151515;
+  --cr-dark1:#fffcf5;
   --cr-light1:#F8FAFD;
 }
 
@@ -2952,6 +2940,7 @@ input:focus {
 .bg-gold1 {
   background: var(--cr-gold1) !important;
   color: #fff !important;
+  border: none !important;
 }
 
 .border-gold1 {

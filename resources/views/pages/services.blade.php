@@ -15,7 +15,8 @@
 
 
 <!--  Start services  -->
-<section id="services" class="tc-services-st1">
+<section id="services" class="tc-services-st1 tc-about-st1">
+    <div class="container-fluid">
     <div class="content">
         <div class="row gx-0">
             <div class="col-lg-5">
@@ -38,6 +39,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!--  End services  -->
