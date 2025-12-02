@@ -1188,7 +1188,7 @@
 }
 .tc-about-st1 .about-card .info {
   position: relative;
-  padding: 120px 0;
+  padding: 60px 0;
 }
 .tc-about-st1 .about-card .progress-item {
   position: relative;
@@ -1676,8 +1676,14 @@
 
 @media screen and (max-width: 991px) {
   .tc-navbar-st1 {
-    background-color: #181818;
+    background-color: #fffcf5;
+    margin-bottom: 40px;
   }
+}
+
+.navbar-toggler {
+    color: #fff !important;
+    background-color: #bf8173;
 }
 /* --------------- portfolio st1 --------------- */
 .tc-process-st1 {

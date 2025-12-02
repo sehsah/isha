@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="foot-info">
-                    <h2 class="fsz-50 fw-400"> <a href="#"> me@interiors-isha.com </a> </h2>
+                    <h2 class="fsz-24 fw-400"> <a href="#"> me@interiors-isha.com </a> </h2>
                     <div class="text fsz-16 cr-999 text-uppercase mt-15 ltspc-2 pe-lg-5"> We build comfortable futures for our clients. </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                     <div class="social-links">
                         <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                         <a href="#"> <i class="fab fa-instagram"></i> </a>
-                        <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-x"></i> </a>
                         <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
                     </div>
                 </div>
