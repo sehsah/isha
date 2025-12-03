@@ -6,8 +6,9 @@
 <header class="tc-inner-header-style1">
     <div class="container">
         <div class="section-head-st1">
-            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="assets/img/fav_gold.svg" alt=""> </span> Our Projects </h6>
-            <h2 class="fsz-50"> A Showcase of Our Work </h2>
+            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="assets/img/fav_gold.svg" alt=""> </span> Our Services </h6>
+            <h2 class="fsz-50">We offer a comprehensive range of interior design solutions tailored to your needs.</h2>
+
         </div>
     </div>
     <img src="assets/img/header_shaps.png" alt="" class="header_shaps">
