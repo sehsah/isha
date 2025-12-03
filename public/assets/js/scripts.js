@@ -848,7 +848,7 @@ $(function () {
             }
         });
         tl.to(span, {
-            color: "#fff",
+            color: "#777",
             filter: "drop-shadow(0px 0px 10px rgba(255, 255, 255, 1))",
             duration: 1,
             delay: i * 0.8,

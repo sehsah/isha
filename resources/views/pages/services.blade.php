@@ -26,15 +26,14 @@
             </div>
             <div class="col-lg-7">
                 <div class="info ps-lg-5 ms-lg-5 pb-120">
-                    <div class="lg-txt split-txt"> Services </div>
                     <div class="service-cards wow fadeInUp slow mt-5" data-wow-delay="0.1s">
-                        <li>Space planning and layouts.</li>
-                        <li>Concept developments.</li>
-                        <li>Furniture and décor selection.</li>
-                        <li>Lighting plan.</li>
-                        <li>Material and finishes.</li>
-                        <li>Rooms Renovation.</li>
-                        <li>Shopping Lists.</li>
+                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Space planning and layouts.</li>
+                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Concept developments.</li>
+                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Furniture and décor selection.</li>
+                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Lighting plan.</li>
+                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Material and finishes.</li>
+                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Rooms Renovation.</li>
+                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Shopping Lists.</li>
                     </div>
                 </div>
             </div>
