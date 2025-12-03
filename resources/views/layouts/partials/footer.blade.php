@@ -45,7 +45,7 @@
     </div>
     <div class="foot">
         <div class="container">
-            <div class="text fsz-16 cr-999 text-center"> © 2025 All rights for <a href="#" class="text-white"> ISHA Interior E-Design Studio </a> exclusive </div>
+            <div class="text fsz-16 cr-fff text-center"> © 2025 All rights for <a href="#" class="text-white"> ISHA Interior E-Design Studio </a> exclusive </div>
         </div>
     </div>
 </footer>
