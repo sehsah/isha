@@ -28,13 +28,13 @@
             <div class="col-lg-7">
                 <div class="info ps-lg-5 ms-lg-5 pb-120">
                     <div class="service-cards wow fadeInUp slow mt-5" data-wow-delay="0.1s">
-                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Space planning and layouts.</li>
-                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Concept developments.</li>
-                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Furniture and décor selection.</li>
-                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Lighting plan.</li>
-                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Material and finishes.</li>
-                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Rooms Renovation.</li>
-                        <li class="" style="color: #000;font-size: 18px;line-height: 40px;">Shopping Lists.</li>
+                        <li class="" style="color: #5f462e;font-size: 18px;line-height: 40px;">Space planning and layouts.</li>
+                        <li class="" style="color: #5f462e;font-size: 18px;line-height: 40px;">Concept developments.</li>
+                        <li class="" style="color: #5f462e;font-size: 18px;line-height: 40px;">Furniture and décor selection.</li>
+                        <li class="" style="color: #5f462e;font-size: 18px;line-height: 40px;">Lighting plan.</li>
+                        <li class="" style="color: #5f462e;font-size: 18px;line-height: 40px;">Material and finishes.</li>
+                        <li class="" style="color: #5f462e;font-size: 18px;line-height: 40px;">Rooms Renovation.</li>
+                        <li class="" style="color: #5f462e;font-size: 18px;line-height: 40px;">Shopping Lists.</li>
                     </div>
                 </div>
             </div>
