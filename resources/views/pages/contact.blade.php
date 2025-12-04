@@ -31,7 +31,7 @@
                     <div class="form-group mb-3">
                         <div class="row">
                             <div class="col-lg-6">
-                                <label class="fsz-16 mb-2">First Name</label>
+                                <label class="fsz-16 mb-2 text-">First Name</label>
                                 <input type="text" name="first_name" class="form-control" placeholder="First Name">
                             </div>
                             <div class="col-lg-6">

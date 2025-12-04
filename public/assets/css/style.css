@@ -1617,6 +1617,12 @@
   padding: 30px 4vw;
   color: #fff;
 }
+label {
+    color: #5F462E;
+}
+.home-navbar .nav-link{
+  color: #fff !important;
+}
 .tc-navbar-st1 .navbar-nav .nav-item .nav-link {
   position: relative;
   color: #bf8173;

@@ -15,7 +15,7 @@
     <!--  Start portfolio  -->
     <section id="what-to-expect" class="tc-portfolio-st1">
         <div class="container">
-            <div class="portfolio-slider float-cursor-container wow fadeInUp slow" data-wow-delay="0.1s">
+            <div class="portfolio-slider  wow fadeInUp slow" data-wow-delay="0.1s">
                 <div class="swiper-wrapper">
                     @foreach ($projects as $project)
                         <div class="swiper-slide">
@@ -28,8 +28,10 @@
                             </div>
                         </div>
                     @endforeach
-
                 </div>
+                <!-- Swiper Arrows -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
             <div class="swiper-progress"> <span class="swiper-progress-bar"></span> </div>
             <div class="numbers-pagination sub-font"></div>

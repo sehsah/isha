@@ -1,5 +1,5 @@
 <!--  Start navbar  -->
-<nav class="navbar navbar-expand-lg tc-navbar-st1 navbar-dark">
+<nav class="navbar navbar-expand-lg tc-navbar-st1 navbar-dark{{ request()->routeIs('home') ? ' home-navbar' : '' }}">
     <div class="container-fluid">
         <a class="navbar-brand me-lg-5" href="{{ route('home') }}">
             <img src="{{ asset('assets/img/logo.png') }}" width="100px" alt="" class="logo">
