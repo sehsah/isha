@@ -43,7 +43,7 @@
                         <h6 class="fsz-20 fw-300"> +44 54224 849203 </h6>
                     </div>
                 </a>--}}
-                <a href="#" class="sidemenu-toggle menu-toggle-btn"> <i class="fas fa-bars"></i> </a>
+                {{-- <a href="#" class="sidemenu-toggle menu-toggle-btn"> <i class="fas fa-bars"></i> </a> --}}
             </div> 
         </div>
     </div>
