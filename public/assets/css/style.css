@@ -1831,10 +1831,14 @@ label {
 }
 
 .light-theme .tc-portfolio-st1 * {
-  color: #fff;
+  color: #5F462E;
 }
 .light-theme .tc-portfolio-st1 .float-cursor {
   color: var(--cr-gold1);
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background: #fff;
 }
 
 @media screen and (max-width: 991px) {

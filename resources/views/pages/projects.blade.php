@@ -22,16 +22,18 @@
                             <div class="portfolio-card">
                                 <div class="img">
                                     <img src="{{ asset($project['image']) }}" alt="" class="img-cover">
-                                    <h2 class="fsz-50"> {{ $project['title'] }} </h2>
-                                    <p class="fsz-16"> {{ $project['description'] }} </p>
                                 </div>
                             </div>
                         </div>
                     @endforeach
                 </div>
                 <!-- Swiper Arrows -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
             </div>
             <div class="swiper-progress"> <span class="swiper-progress-bar"></span> </div>
             <div class="numbers-pagination sub-font"></div>

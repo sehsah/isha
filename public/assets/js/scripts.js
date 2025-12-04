@@ -106,7 +106,10 @@ $(document).ready(function () {
             el: '.tc-portfolio-st1 .swiper-pagination',
             clickable: true,
         },
-        navigation: false,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
         mousewheel: false,
         keyboard: true,
         autoplay: {
