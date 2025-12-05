@@ -1623,6 +1623,10 @@ label {
 .home-navbar .nav-link{
   color: #fff !important;
 }
+
+.navbar-collapse.collapse.show a.nav-link {
+    color: #bf8173 !important;
+}
 .tc-navbar-st1 .navbar-nav .nav-item .nav-link {
   position: relative;
   color: #bf8173;
