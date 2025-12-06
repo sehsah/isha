@@ -14,7 +14,7 @@
                     <div class="foot-links text-lg-end mt-10">
                         <a href="{{ route('about') }}"> <span class="txt"> About </span> </a>
                         <a href="{{ route('works') }}"> <span class="txt"> Projects </span> </a>
-                        <a href="{{ route('questionnaire') }}"> <span class="txt"> Register </span> </a>
+                        <a href="{{ route('register') }}"> <span class="txt"> Register </span> </a>
                         <a href="{{ route('contact') }}"> <span class="txt"> Contact </span> </a>
                     </div>
                 </div>
