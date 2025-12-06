@@ -16,5 +16,6 @@ Route::get('/questionnaire', [PageController::class, 'questionnaire'])->name('qu
 Route::post('/questionnaire', [PageController::class, 'submitQuestionnaire'])->name('questionnaire.submit');
 Route::get('/faq', [PageController::class, 'faq'])->name('faq');
 Route::get('/register', [PageController::class, 'register'])->name('register');
+Route::post('/register', [PageController::class, 'submitRegister'])->name('register.submit');
 Route::get('/how-to', [PageController::class, 'howTo'])->name('how-to');
 Route::get('/services', [PageController::class, 'services'])->name('services');

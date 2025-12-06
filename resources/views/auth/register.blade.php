@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <form action="{{ route('questionnaire.submit') }}" method="POST" class="form">
+                <form action="{{ route('register.submit') }}" method="POST" class="form">
                     @csrf
                     @if(session('success'))
                         <div class="alert alert-success">
@@ -29,12 +29,8 @@
                     <div class="form-group mb-3">
                         <div class="row">
                             <div class="col-lg-6">
-                                <label class="fsz-16 mb-2">First Name</label>
-                                <input type="text" name="first_name" class="form-control" placeholder="First Name">
-                            </div>
-                            <div class="col-lg-6">
-                                <label class="fsz-16 mb-2">Last Name</label>
-                                <input type="text" name="last_name" class="form-control" placeholder="Last Name">
+                                <label class="fsz-16 mb-2">Full Name</label>
+                                <input type="text" name="name" class="form-control" placeholder="Full Name">
                             </div>
                         </div>
                     </div>

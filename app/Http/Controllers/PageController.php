@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\QuestionnaireResponse;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -141,10 +142,18 @@ class PageController extends Controller
         QuestionnaireResponse::create($data);
 
         // Send notification email to admin
-        \Mail::to(config('mail.admin_address', 'admin@example.com'))
+        \Mail::to('ishalrumaihi@hotmail.com')
             ->send(new \App\Mail\QuestionnaireSubmitted($data));
 
         return back()->with('success', 'Thank you for your submission! We have received your information and will be in touch shortly.');
+    }
+
+    public function submitRegister(Request $request)
+    {
+        // In a real application, you would add validation here.
+        $data = $request->all();
+        User::create($data);
+        return redirect()->route('questionnaire');
     }
 
     public function howTo()
