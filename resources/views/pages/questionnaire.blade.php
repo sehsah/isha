@@ -7,7 +7,7 @@
     <div class="container">
         <div class="section-head-st1">
             <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="{{ asset('img/fav_gold.svg') }}" alt=""> </span> Client Questionnaire </h6>
-            <h2 class="fsz-50">Tell Us About Your Project</h2>
+            <h2 class="fsz-30">Tell Us About Your Project</h2>
         </div>
     </div>
     <img src="{{ asset('img/header_shaps.png') }}" alt="" class="header_shaps">
@@ -30,11 +30,11 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">First Name</label>
-                                <input type="text" name="first_name" class="form-control" placeholder="First Name">
+                                <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
                             </div>
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Last Name</label>
-                                <input type="text" name="last_name" class="form-control" placeholder="Last Name">
+                                <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
                             </div>
                         </div>
                     </div>
@@ -42,11 +42,11 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Phone Number</label>
-                                <input type="text" name="phone" class="form-control" placeholder="Phone Number">
+                                <input type="text" name="phone" class="form-control" placeholder="Phone Number" required>
                             </div>
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Email</label>
-                                <input type="email" name="email" class="form-control" placeholder="Email">
+                                <input type="email" name="email" class="form-control" placeholder="Email" required>
                             </div>
                         </div>
                     </div>
@@ -69,11 +69,11 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">What is the square footage of the space?</label>
-                                <input type="text" name="sq_footage" class="form-control">
+                                <input type="text" name="sq_footage" class="form-control" required>
                             </div>
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Residential or Commercial?</label>
-                                <select name="project_type" class="form-select">
+                                <select name="project_type" class="form-select" required>
                                     <option value="residential">Residential</option>
                                     <option value="commercial">Commercial</option>
                                 </select>

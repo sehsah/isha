@@ -15,6 +15,8 @@ return [
     */
 
     'default' => env('MAIL_MAILER', 'log'),
+    // Admin email address for notifications
+    'admin_address' => env('MAIL_ADMIN_ADDRESS', 'admin@example.com'),
 
     /*
     |--------------------------------------------------------------------------

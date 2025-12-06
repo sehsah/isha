@@ -9,31 +9,13 @@
             <div class="content">
                 <p class="title_desc"> At ISHA Interior Design Studio, we believe that interior design is the art of harmonizing beauty with purpose. Our mission is to craft refined spaces where functionality meets personal expression – each design telling a unique story, embodying a vision, and enriching the lives of those who experience it.</p>
                 <div class="info-card">
-                    <div class="img icon-80 rounded-circle overflow-hidden me-20 shrink-0">
-                        <img src="{{ asset('assets/img/hero1.jpg') }}" alt="" class="img-cover">
-                    </div>
                     <div class="cont">
-                        <h6 class="fsz-24 mb-1">  Lets start your interior design journey </h6>
+                        <a href="{{ route('register') }}" >
+                            <h6 class="fsz-24 mb-1 p-3">  Lets start your interior design journey </h6>
+                        </a>
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-lg-3">
-                        <div class="rotate-box" data-speed="1" data-lag="0.7">
-                            <a href="#" class="rotate-circle rotate-text d-inline-block">
-                                <svg class="textcircle" viewBox="0 0 500 500">
-                                    <defs>
-                                        <path id="textcircle"
-                                            d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
-                                        </path>
-                                    </defs>
-                                    <text>
-                                        <textPath xlink:href="#textcircle" textLength="900"> ISHA Interior E-Design Studio - Your Vision, Our Expertise </textPath>
-                                    </text>
-                                </svg>
-                            </a>
-                            <div class="icon"> <img src="{{ asset('assets/img/fav_wh.svg') }}" alt=""> </div>
-                        </div>
-                    </div>
                     <div class="col-lg-5 text-lg-end d-none">
                         <div class="txt-img-box d-inline-flex align-items-center mt-40">
                             <div class="img icon-200 rounded-circle overflow-hidden me-20 flex-shrink-0">

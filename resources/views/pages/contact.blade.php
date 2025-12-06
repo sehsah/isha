@@ -6,8 +6,8 @@
 <header class="tc-inner-header-style1">
     <div class="container">
         <div class="section-head-st1">
-            <h6 class="fsz-20 cr-gold1 mb-15"> <span class="icon-20 me-1"> <img src="assets/img/fav_gold.svg" alt=""> </span> Get In Touch </h6>
-            <h2 class="fsz-50"> Let's Create Your Dream Space </h2>
+            <h6 class="fsz-20 cr-gold1 mb-15">  Get In Touch </h6>
+            <h2 class="fsz-30"> Let's Create Your Dream Space </h2>
         </div>
     </div>
     <img src="assets/img/header_shaps.png" alt="" class="header_shaps">

@@ -137,7 +137,12 @@ class PageController extends Controller
     public function submitQuestionnaire(Request $request)
     {
         // In a real application, you would add validation here.
-        QuestionnaireResponse::create($request->all());
+        $data = $request->all();
+        QuestionnaireResponse::create($data);
+
+        // Send notification email to admin
+        \Mail::to(config('mail.admin_address', 'admin@example.com'))
+            ->send(new \App\Mail\QuestionnaireSubmitted($data));
 
         return back()->with('success', 'Thank you for your submission! We have received your information and will be in touch shortly.');
     }

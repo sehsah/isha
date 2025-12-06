@@ -1376,13 +1376,12 @@
 /* --------------- footer st1 --------------- */
 .tc-footer-st1 {
   position: relative;
-  padding-top: 120px;
   background-color: #fffcf5;
   z-index: 10;
 }
 .tc-footer-st1 .social-links {
   position: relative;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .tc-footer-st1 .social-links a {
   position: relative;
@@ -1446,6 +1445,7 @@
   padding: 200px 0 100px;
   z-index: 20;
   overflow: hidden;
+  height: 100vh;
 }
 .tc-header-st1::after {
   position: absolute;
@@ -3409,14 +3409,12 @@ html[lang=ar] body .tc-blog-st1 .blog-slider .swiper-wrapper .swiper-slide-prev 
 /* --------------- footer st1 --------------- */
 .tc-footer-st1 {
   position: relative;
-  padding-top: 120px;
   background-color: #fffcf5;
   z-index: 20;
   overflow: hidden;
 }
 .tc-footer-st1 .social-links {
   position: relative;
-  margin-top: 30px;
 }
 .tc-footer-st1 .social-links a {
   position: relative;

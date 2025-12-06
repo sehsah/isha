@@ -1,42 +1,20 @@
 <!--  Start footer  -->
 <footer class="tc-footer-st1">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="foot-info">
-                    <h2 class="fsz-24 fw-400"> <a href="#"> me@interiors-isha.com </a> </h2>
-                    <div class="text fsz-16 cr-999 text-uppercase mt-15 ltspc-2 pe-lg-5"> We build comfortable futures for our clients. </div>
-                </div>
-            </div>
-            <div class="col-lg-3 offset-lg-2">
-                <div class="contact-info">
-                    <div class="item mb-30">
-                        <div class="text fsz-16 cr-999 mb-1"> Our website </div>
-                        <h6 class="fsz-24"> <a href="#"> www.interiors-isha.com </a> </h6>
-                    </div>
-                    <div class="item mb-30">
-                        <div class="text fsz-16 cr-999 mb-1"> If you're in a hurry, give us a call </div>
-                        <h6 class="fsz-24"> <a href="#"> +96550044333</a> </h6>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="links-wrapper my-5">
+        <div class="links-wrapper my-2">
             <div class="row justify-content-between">
                 <div class="col-lg-4">
                     <div class="social-links">
-                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                        <a href="#"> <i class="fab fa-instagram"></i> </a>
-                        <a href="#"> <i class="fab fa-x"></i> </a>
-                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="https://www.instagram.com/interiors.isha"> <i class="fab fa-instagram"></i> </a>
+                        <a href="tel:+96550044333"> <i class="fas fa-phone"></i> </a>
+                        <a href="mailto:ishalrumaihi@hotmail.com"> <i class="fas fa-envelope"></i> </a>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="foot-links text-lg-end mt-30">
+                    <div class="foot-links text-lg-end mt-10">
                         <a href="{{ route('about') }}"> <span class="txt"> About </span> </a>
                         <a href="{{ route('works') }}"> <span class="txt"> Projects </span> </a>
-                        <a href="{{ route('questionnaire') }}"> <span class="txt"> Questionnaire </span> </a>
+                        <a href="{{ route('questionnaire') }}"> <span class="txt"> Register </span> </a>
                         <a href="{{ route('contact') }}"> <span class="txt"> Contact </span> </a>
                     </div>
                 </div>
