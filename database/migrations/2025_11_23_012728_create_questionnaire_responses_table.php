@@ -26,7 +26,6 @@ return new class extends Migration
             $table->string('project_type')->nullable();
             $table->string('established_budget')->nullable();
             $table->string('how_did_you_hear')->nullable();
-            $table->string('worked_with_designer')->nullable();
             $table->text('special_considerations')->nullable();
             $table->json('services')->nullable();
             $table->string('services_other')->nullable();
@@ -39,12 +38,6 @@ return new class extends Migration
             $table->text('hobbies_in_design')->nullable();
             $table->text('special_needs')->nullable();
             $table->text('space_goal')->nullable();
-
-            // Project Planner
-            $table->json('planner_project_budget')->nullable();
-            $table->json('involvement_process')->nullable();
-            $table->json('timeframe')->nullable();
-            $table->json('construction_time')->nullable();
 
             // Style Preference
             $table->json('design_style')->nullable();
@@ -68,15 +61,10 @@ return new class extends Migration
 
             // Bathroom Preference
             $table->json('bathroom_style')->nullable();
-            $table->json('shower_hardware')->nullable();
             $table->json('heating_preference')->nullable();
-            $table->json('tiling_preference')->nullable();
             $table->string('tiling_preference_other')->nullable();
-            $table->json('basin_preference')->nullable();
             $table->string('basin_preference_other')->nullable();
-            $table->json('storing_preference')->nullable();
             $table->string('storing_preference_other')->nullable();
-            $table->json('ventilation')->nullable();
             $table->string('ventilation_other')->nullable();
 
             // Kitchen Preference
@@ -86,8 +74,6 @@ return new class extends Migration
             $table->string('fridge_style_other')->nullable();
             $table->json('oven_preference')->nullable();
             $table->string('oven_preference_other')->nullable();
-            $table->json('splashback_design')->nullable();
-            $table->string('splashback_design_other')->nullable();
             $table->json('cooking_fuel')->nullable();
             $table->string('cooking_fuel_other')->nullable();
             $table->json('seating_configuration')->nullable();
@@ -106,13 +92,9 @@ return new class extends Migration
             $table->json('bed_size')->nullable();
             $table->string('bed_size_other')->nullable();
             $table->json('bedroom_lighting_preference')->nullable();
-            $table->string('bedroom_lighting_preference_other')->nullable();
-            $table->json('bedroom_storage_solutions')->nullable();
             $table->string('bedroom_storage_solutions_other')->nullable();
 
             // Furniture Preference
-            $table->string('furnishings_purchase_location')->nullable();
-            $table->string('frequent_websites')->nullable();
             $table->text('repurpose_pieces')->nullable();
             $table->json('furnishing_spend')->nullable();
 

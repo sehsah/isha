@@ -17,8 +17,7 @@
 		<li><strong>Square Footage:</strong> {{ $data['sq_footage'] ?? '' }}</li>
 		<li><strong>Type:</strong> {{ $data['project_type'] ?? '' }}</li>
 		<li><strong>Established Budget:</strong> {{ $data['established_budget'] ?? '' }}</li>
-		<li><strong>How did you hear about me?:</strong> {{ $data['how_did_you_hear'] ?? '' }}</li>
-		<li><strong>Worked with Designer Before:</strong> {{ $data['worked_with_designer'] ?? '' }}</li>
+		<li><strong>How did you hear about us?:</strong> {{ $data['how_did_you_hear'] ?? '' }}</li>
 		<li><strong>Special Considerations:</strong> {{ $data['special_considerations'] ?? '' }}</li>
 		@if(!empty($data['services']))
 		<li><strong>Services Interested In:</strong> {{ is_array($data['services']) ? implode(', ', $data['services']) : $data['services'] }} {{ $data['services_other'] ?? '' }}</li>
@@ -33,22 +32,6 @@
 		<li><strong>Hobbies in Design:</strong> {{ $data['hobbies_in_design'] ?? '' }}</li>
 		<li><strong>Special Needs:</strong> {{ $data['special_needs'] ?? '' }}</li>
 		<li><strong>Space Goal:</strong> {{ $data['space_goal'] ?? '' }}</li>
-	</ul>
-
-	<h3>Project Planner</h3>
-	<ul>
-		@if(!empty($data['planner_project_budget']))
-		<li><strong>Project Budget:</strong> {{ is_array($data['planner_project_budget']) ? implode(', ', $data['planner_project_budget']) : $data['planner_project_budget'] }}</li>
-		@endif
-		@if(!empty($data['involvement_process']))
-		<li><strong>Involvement in Process:</strong> {{ is_array($data['involvement_process']) ? implode(', ', $data['involvement_process']) : $data['involvement_process'] }}</li>
-		@endif
-		@if(!empty($data['timeframe']))
-		<li><strong>Project Timeframe:</strong> {{ is_array($data['timeframe']) ? implode(', ', $data['timeframe']) : $data['timeframe'] }}</li>
-		@endif
-		@if(!empty($data['construction_time']))
-		<li><strong>Construction Time:</strong> {{ is_array($data['construction_time']) ? implode(', ', $data['construction_time']) : $data['construction_time'] }}</li>
-		@endif
 	</ul>
 
 	<h3>Style Preference</h3>
@@ -89,23 +72,8 @@
 	<h3>Bathroom Preference</h3>
 	<ul>
 		<li><strong>Bathroom Design Style:</strong> {{ $data['bathroom_design_style'] ?? '' }}</li>
-		@if(!empty($data['shower_hardware']))
-		<li><strong>Shower Hardware:</strong> {{ is_array($data['shower_hardware']) ? implode(', ', $data['shower_hardware']) : $data['shower_hardware'] }}</li>
-		@endif
 		@if(!empty($data['heating_preference']))
 		<li><strong>Heating Preference:</strong> {{ is_array($data['heating_preference']) ? implode(', ', $data['heating_preference']) : $data['heating_preference'] }}</li>
-		@endif
-		@if(!empty($data['tiling_preference']))
-		<li><strong>Tiling Preference:</strong> {{ is_array($data['tiling_preference']) ? implode(', ', $data['tiling_preference']) : $data['tiling_preference'] }} {{ $data['tiling_preference_other'] ?? '' }}</li>
-		@endif
-		@if(!empty($data['basin_preference']))
-		<li><strong>Basin Preference:</strong> {{ is_array($data['basin_preference']) ? implode(', ', $data['basin_preference']) : $data['basin_preference'] }} {{ $data['basin_preference_other'] ?? '' }}</li>
-		@endif
-		@if(!empty($data['storing_preference']))
-		<li><strong>Storing Preference:</strong> {{ is_array($data['storing_preference']) ? implode(', ', $data['storing_preference']) : $data['storing_preference'] }} {{ $data['storing_preference_other'] ?? '' }}</li>
-		@endif
-		@if(!empty($data['ventilation']))
-		<li><strong>Ventilation:</strong> {{ is_array($data['ventilation']) ? implode(', ', $data['ventilation']) : $data['ventilation'] }} {{ $data['ventilation_other'] ?? '' }}</li>
 		@endif
 	</ul>
 
@@ -120,9 +88,6 @@
 		@endif
 		@if(!empty($data['oven_preference']))
 		<li><strong>Oven Preference:</strong> {{ is_array($data['oven_preference']) ? implode(', ', $data['oven_preference']) : $data['oven_preference'] }}</li>
-		@endif
-		@if(!empty($data['splashback_design']))
-		<li><strong>Splashback Design:</strong> {{ is_array($data['splashback_design']) ? implode(', ', $data['splashback_design']) : $data['splashback_design'] }} {{ $data['splashback_design_other'] ?? '' }}</li>
 		@endif
 		@if(!empty($data['cooking_fuel']))
 		<li><strong>Cooking Fuel:</strong> {{ is_array($data['cooking_fuel']) ? implode(', ', $data['cooking_fuel']) : $data['cooking_fuel'] }} {{ $data['cooking_fuel_other'] ?? '' }}</li>
@@ -151,18 +116,10 @@
 		@if(!empty($data['bed_size']))
 		<li><strong>Bed Size:</strong> {{ is_array($data['bed_size']) ? implode(', ', $data['bed_size']) : $data['bed_size'] }} {{ $data['bed_size_other'] ?? '' }}</li>
 		@endif
-		@if(!empty($data['bedroom_lighting_preference']))
-		<li><strong>Lighting Preference:</strong> {{ is_array($data['bedroom_lighting_preference']) ? implode(', ', $data['bedroom_lighting_preference']) : $data['bedroom_lighting_preference'] }} {{ $data['bedroom_lighting_preference_other'] ?? '' }}</li>
-		@endif
-		@if(!empty($data['bedroom_storage_solutions']))
-		<li><strong>Storage Solutions:</strong> {{ is_array($data['bedroom_storage_solutions']) ? implode(', ', $data['bedroom_storage_solutions']) : $data['bedroom_storage_solutions'] }} {{ $data['bedroom_storage_solutions_other'] ?? '' }}</li>
-		@endif
 	</ul>
 
 	<h3>Furniture Preference</h3>
 	<ul>
-		<li><strong>Furnishings Purchase Location:</strong> {{ $data['furnishings_purchase_location'] ?? '' }}</li>
-		<li><strong>Frequent Websites:</strong> {{ $data['frequent_websites'] ?? '' }}</li>
 		<li><strong>Repurpose Pieces:</strong> {{ $data['repurpose_pieces'] ?? '' }}</li>
 		@if(!empty($data['furnishing_spend']))
 		<li><strong>Furnishing Spend:</strong> {{ is_array($data['furnishing_spend']) ? implode(', ', $data['furnishing_spend']) : $data['furnishing_spend'] }}</li>

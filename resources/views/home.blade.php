@@ -18,7 +18,7 @@
                 <div class="row justify-content-between">
                     <div class="col-lg-5 text-lg-end d-none">
                         <div class="txt-img-box d-inline-flex align-items-center mt-40">
-                            <div class="img icon-200 rounded-circle overflow-hidden me-20 flex-shrink-0">
+                            <div class="img icon-200 rounded-circle overflow-hidden me-20 shrink-0">
                                 <img src="{{ asset('assets/img/hero2.png') }}" alt="" class="img-cover">
                             </div>
                             <div class="cont text-start">

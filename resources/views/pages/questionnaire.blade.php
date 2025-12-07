@@ -68,7 +68,7 @@
                     <div class="form-group mb-3">
                         <div class="row">
                             <div class="col-lg-6">
-                                <label class="fsz-16 mb-2">What is the square footage of the space?</label>
+                                <label class="fsz-16 mb-2">What is the Meter footage of the space?</label>
                                 <input type="text" name="sq_footage" class="form-control" required>
                             </div>
                             <div class="col-lg-6">
@@ -87,21 +87,8 @@
                                 <input type="text" name="established_budget" class="form-control">
                             </div>
                             <div class="col-lg-6">
-                                <label class="fsz-16 mb-2">How did you hear about me?</label>
+                                <label class="fsz-16 mb-2">How did you hear about Us?</label>
                                 <input type="text" name="how_did_you_hear" class="form-control">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Have you worked with an Interior Designer before?</label>
-                        <div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="worked_with_designer" id="worked_with_designer_yes" value="yes">
-                                <label class="form-check-label" for="worked_with_designer_yes">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="worked_with_designer" id="worked_with_designer_no" value="no">
-                                <label class="form-check-label" for="worked_with_designer_no">No</label>
                             </div>
                         </div>
                     </div>
@@ -114,7 +101,6 @@
                         <label class="fsz-16 mb-2">What type of services are you interested in?</label>
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]" value="e-design" id="service_e_design"><label class="form-check-label" for="service_e_design">E-Design</label></div>
                                 <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]" value="full-design" id="service_full_design"><label class="form-check-label" for="service_full_design">Full Design</label></div>
                                 <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]" value="concepts" id="service_concepts"><label class="form-check-label" for="service_concepts">Concepts</label></div>
                                 <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]" value="only-floorplans" id="service_only_floorplans"><label class="form-check-label" for="service_only_floorplans">Only Floorplans</label></div>
@@ -169,43 +155,6 @@
                     <div class="form-group mb-4">
                         <label class="fsz-16 mb-2">What is the goal of the space?</label>
                         <textarea name="space_goal" class="form-control" rows="3"></textarea>
-                    </div>
-
-                    <!-- Project Planner -->
-                    <h4 class="fsz-30 my-4">Project Planner</h4>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Project Budget?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="planner_project_budget[]" value="1k-10k" id="pb_1k_10k"><label class="form-check-label" for="pb_1k_10k">$1,000 - $10,000</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="planner_project_budget[]" value="10k-30k" id="pb_10k_30k"><label class="form-check-label" for="pb_10k_30k">$10,000 - $30,000</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="planner_project_budget[]" value="30k-50k" id="pb_30k_50k"><label class="form-check-label" for="pb_30k_50k">$30,000 - $50,000</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="planner_project_budget[]" value="50k+" id="pb_50k_plus"><label class="form-check-label" for="pb_50k_plus">+ $50,000</label></div>
-                        </div>
-                    </div>
-                     <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Involvement in the process?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="involvement_process[]" value="very_involved" id="involve_very"><label class="form-check-label" for="involve_very">I want to be very involved</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="involvement_process[]" value="separate_seating" id="involve_seating"><label class="form-check-label" for="involve_seating">Separate seating area</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="involvement_process[]" value="leave_to_professional" id="involve_professional"><label class="form-check-label" for="involve_professional">Leave it to the professional</label></div>
-                        </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Project Timeframe?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="timeframe[]" value="1-2m" id="tf_1_2m"><label class="form-check-label" for="tf_1_2m">1-2 months</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="timeframe[]" value="2-4m" id="tf_2_4m"><label class="form-check-label" for="tf_2_4m">2-4 months</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="timeframe[]" value="4-6m" id="tf_4_6m"><label class="form-check-label" for="tf_4_6m">4-6 months</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="timeframe[]" value="6m+" id="tf_6m_plus"><label class="form-check-label" for="tf_6m_plus">+ 6 months</label></div>
-                        </div>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label class="fsz-16 mb-2">Construction Time?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="construction_time[]" value="all_at_once" id="ct_all_at_once"><label class="form-check-label" for="ct_all_at_once">Constructed all at once</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="construction_time[]" value="in_stages" id="ct_in_stages"><label class="form-check-label" for="ct_in_stages">Constructed in stages</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="construction_time[]" value="decide_later" id="ct_decide_later"><label class="form-check-label" for="ct_decide_later">Will decide later based on design</label></div>
-                        </div>
                     </div>
 
                     <!-- Style Preference -->
@@ -303,7 +252,7 @@
                         <textarea name="dislike_pattern" class="form-control" rows="2"></textarea>
                     </div>
                     <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Which kind of shelved do you prefer?</label>
+                        <label class="fsz-16 mb-2">Which kind of shelves do you prefer?</label>
                         <div>
                             <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" name="shelved_type[]" value="opened" id="st_opened"><label class="form-check-label" for="st_opened">Opened</label></div>
                             <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" name="shelved_type[]" value="closed_storage" id="st_closed"><label class="form-check-label" for="st_closed">Closed Storage</label></div>
@@ -339,56 +288,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Shower Hardware?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="shower_hardware[]" value="fixed_head_only" id="sh_fixed_only"><label class="form-check-label" for="sh_fixed_only">Fixed head only</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="shower_hardware[]" value="fixed_head_plus_handheld" id="sh_fixed_handheld"><label class="form-check-label" for="sh_fixed_handheld">Fixed head plus handheld</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="shower_hardware[]" value="handheld_only" id="sh_handheld_only"><label class="form-check-label" for="sh_handheld_only">Handheld only</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="shower_hardware[]" value="any_hardware" id="sh_any"><label class="form-check-label" for="sh_any">Any</label></div>
-                        </div>
-                    </div>
                     <div class="form-group mb-4">
                         <label class="fsz-16 mb-2">Heating Preference?</label>
                         <div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" name="heating_preference[]" value="heated_towel_rail" id="hp_heated"><label class="form-check-label" for="hp_heated">Heated Towel Rail</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" name="heating_preference[]" value="normal_towel_rail" id="hp_normal"><label class="form-check-label" for="hp_normal">Normal Towel Rail</label></div>
-                        </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Tiling Preference?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="tiling_preference[]" value="large_slab" id="tp_large_slab"><label class="form-check-label" for="tp_large_slab">Large slab (minimal grout lines)</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="tiling_preference[]" value="small_subway_mosaic" id="tp_subway_mosaic"><label class="form-check-label" for="tp_subway_mosaic">Small subway / mosaic (a lot of grout lines)</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="tiling_preference[]" value="medium_size" id="tp_medium_size"><label class="form-check-label" for="tp_medium_size">Medium size (e.g. 600mm x 600mm)</label></div>
-                            <input type="text" name="tiling_preference_other" class="form-control mt-2" placeholder="Other Tiling Preference">
-                        </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Basin Preference?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="basin_preference[]" value="counter_basin" id="bp_counter"><label class="form-check-label" for="bp_counter">Counter Basin (sits on counter)</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="basin_preference[]" value="wall_mounted" id="bp_wall_mounted"><label class="form-check-label" for="bp_wall_mounted">Wall mounted (no storage below)</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="basin_preference[]" value="under_counter" id="bp_under_counter"><label class="form-check-label" for="bp_under_counter">Under counter (easy to clean counter)</label></div>
-                            <input type="text" name="basin_preference_other" class="form-control mt-2" placeholder="Other Basin Preference">
-                        </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Preference for Storing?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="storing_preference[]" value="wall_cabinet" id="sp_wall_cabinet"><label class="form-check-label" for="sp_wall_cabinet">Wall cabinet</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="storing_preference[]" value="vanity_cupboards" id="sp_vanity_cupboards"><label class="form-check-label" for="sp_vanity_cupboards">Vanity cupboards</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="storing_preference[]" value="vanity_drawer" id="sp_vanity_drawer"><label class="form-check-label" for="sp_vanity_drawer">Vanity drawer</label></div>
-                            <input type="text" name="storing_preference_other" class="form-control mt-2" placeholder="Other Storing Preference">
-                        </div>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label class="fsz-16 mb-2">Ventilation?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="ventilation[]" value="openable_window" id="v_openable_window"><label class="form-check-label" for="v_openable_window">Openable Window</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="ventilation[]" value="openable_skylight" id="v_openable_skylight"><label class="form-check-label" for="v_openable_skylight">Openable Skylight</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="ventilation[]" value="mechanical_ceiling_wall_exhaust" id="v_exhaust"><label class="form-check-label" for="v_exhaust">Mechanical Ceiling / Wall Exhaust</label></div>
-                            <input type="text" name="ventilation_other" class="form-control mt-2" placeholder="Other Ventilation">
                         </div>
                     </div>
 
@@ -412,8 +316,6 @@
                         <div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" name="sink_design[]" value="double_sink" id="sd_double_sink"><label class="form-check-label" for="sd_double_sink">Double sink</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" name="sink_design[]" value="single_sink" id="sd_single_sink"><label class="form-check-label" for="sd_single_sink">Single sink</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="sink_design[]" value="one_and_a_half_sink" id="sd_one_half_sink"><label class="form-check-label" for="sd_one_half_sink">One and a half sink</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="sink_design[]" value="farmhouse_sink" id="sd_farmhouse_sink"><label class="form-check-label" for="sd_farmhouse_sink">Farmhouse sink</label></div>
                         </div>
                     </div>
                     <div class="form-group mb-4">
@@ -432,15 +334,6 @@
                             <div class="form-check"><input class="form-check-input" type="checkbox" name="oven_preference[]" value="single_under_bench" id="op_single_under"><label class="form-check-label" for="op_single_under">Single Oven (under bench)</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" name="oven_preference[]" value="oven_integrated_hob" id="op_integrated_hob"><label class="form-check-label" for="op_integrated_hob">Oven integrated with hob burner</label></div>
                             <input type="text" name="oven_preference_other" class="form-control mt-2" placeholder="Other Oven Preference">
-                        </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Splashback Design?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="splashback_design[]" value="glass_slab_no_grout" id="sd_glass_slab"><label class="form-check-label" for="sd_glass_slab">Glass / slab splashback (no grout to clean)</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="splashback_design[]" value="small_subway_mosaic" id="sd_small_subway"><label class="form-check-label" for="sd_small_subway">Small subway / mosaic (a lot of grout lines)</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="splashback_design[]" value="medium_size_grout" id="sd_medium_size"><label class="form-check-label" for="sd_medium_size">Medium size (e.g. 600mm x 600mm)</label></div>
-                            <input type="text" name="splashback_design_other" class="form-control mt-2" placeholder="Other Splashback Design">
                         </div>
                     </div>
                     <div class="form-group mb-3">
@@ -507,35 +400,10 @@
                             <input type="text" name="bed_size_other" class="form-control mt-2" placeholder="Other Bed Size">
                         </div>
                     </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Lighting preference?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="bedroom_lighting_preference[]" value="overhead" id="blp_overhead"><label class="form-check-label" for="blp_overhead">Overhead</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="bedroom_lighting_preference[]" value="bedside_lamps" id="blp_bedside_lamps"><label class="form-check-label" for="blp_bedside_lamps">Bedside lamps</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="bedroom_lighting_preference[]" value="pendant_lights" id="blp_pendant_lights"><label class="form-check-label" for="blp_pendant_lights">Pendant lights</label></div>
-                            <input type="text" name="bedroom_lighting_preference_other" class="form-control mt-2" placeholder="Other Lighting Preference">
-                        </div>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label class="fsz-16 mb-2">Storage solutions?</label>
-                        <div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="bedroom_storage_solutions[]" value="wardrobe" id="bss_wardrobe"><label class="form-check-label" for="bss_wardrobe">Wardrobe</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="bedroom_storage_solutions[]" value="dresser" id="bss_dresser"><label class="form-check-label" for="bss_dresser">Dresser</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" name="bedroom_storage_solutions[]" value="under_bed_storage" id="bss_under_bed_storage"><label class="form-check-label" for="bss_under_bed_storage">Under-bed storage</label></div>
-                            <input type="text" name="bedroom_storage_solutions_other" class="form-control mt-2" placeholder="Other Storage Solution">
-                        </div>
-                    </div>
+
 
                     <!-- Furniture Preference -->
                     <h4 class="fsz-30 my-4">Furniture Preference</h4>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Where do you purchase your furnishings?</label>
-                        <input type="text" name="furnishings_purchase_location" class="form-control" placeholder="e.g., Local stores, Online retailers">
-                    </div>
-                    <div class="form-group mb-3">
-                        <label class="fsz-16 mb-2">Which websites do you frequent?</label>
-                        <input type="text" name="frequent_websites" class="form-control" placeholder="e.g., Wayfair, Pottery Barn, Etsy">
-                    </div>
                     <div class="form-group mb-3">
                         <label class="fsz-16 mb-2">Would you like to repurpose any current pieces in your home?</label>
                         <textarea name="repurpose_pieces" class="form-control" rows="3"></textarea>
