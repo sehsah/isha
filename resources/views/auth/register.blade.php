@@ -30,7 +30,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Full Name</label>
-                                <input type="text" name="name" class="form-control" placeholder="Full Name">
+                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                             </div>
                         </div>
                     </div>
@@ -38,11 +38,11 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Email</label>
-                                <input type="email" name="email" class="form-control" placeholder="Email">
+                                <input type="email" name="email" class="form-control" placeholder="Email" required>
                             </div>                            
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Phone Number</label>
-                                <input type="text" name="phone" class="form-control" placeholder="Phone Number">
+                                <input type="text" name="phone" class="form-control" placeholder="Phone Number" required>
                             </div>
                         </div>
                     </div>
@@ -50,11 +50,11 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Password</label>
-                                <input type="password" name="password" class="form-control" placeholder="Password">
+                                <input type="password" name="password" class="form-control" placeholder="Password" required>
                             </div>                            
                             <div class="col-lg-6">
                                 <label class="fsz-16 mb-2">Confirm Password</label>
-                                <input type="password" name="password_confirmation" class="form-control" placeholder="Confirm Password">
+                                <input type="password" name="password_confirmation" class="form-control" placeholder="Confirm Password" required>
                             </div>
                         </div>
                     </div>
