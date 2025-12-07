@@ -6,7 +6,6 @@
 <header class="tc-inner-header-style1">
     <div class="container">
         <div class="section-head-st1">
-            <h6 class="fsz-20 cr-gold1 mb-15">  Get In Touch </h6>
             <h2 class="fsz-30"> Let's Create Your Dream Space </h2>
         </div>
     </div>
