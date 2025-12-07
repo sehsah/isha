@@ -29,7 +29,7 @@
                     <div class="process-card wow fadeInUp slow" data-wow-delay="0.2s">
                         <div class="icon"><span class="fsz-30">02</span></div>
                         <h5 class="fsz-24 mb-15">Share Your Space</h5>
-                        <p class="fsz-16 cr-999">Upload photos, videos, and measurements of your space. Or, if you prefer a hands-off approach, you can Request a site visit, and one of our engineers will handle the measurements for you.</p>
+                        <p class="fsz-16 cr-999">Upload photos and floor plans. Or, if you prefer a hands-off approach, you can request a site visit, and one of our engineers will handle the measurements for you.</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
