@@ -141,9 +141,11 @@ class PageController extends Controller
         $data = $request->all();
         QuestionnaireResponse::create($data);
 
-        // Send notification email to admin
-        \Mail::to('ishalrumaihi@hotmail.com')
-            ->send(new \App\Mail\QuestionnaireSubmitted($data));
+        try {
+             \Mail::to('ishalrumaihi@hotmail.com')->send(new \App\Mail\QuestionnaireSubmitted($data));
+        } catch (\Exception $e) {
+            \Log::error('Failed to send questionnaire submission email: ' . $e->getMessage());
+        }
 
         return back()->with('success', 'Thank you for your submission! We have received your information and will be in touch shortly.');
     }
