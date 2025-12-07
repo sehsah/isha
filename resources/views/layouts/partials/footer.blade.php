@@ -8,6 +8,7 @@
                         <a href="https://www.instagram.com/interiors.isha"> <i class="fab fa-instagram"></i> </a>
                         <a href="tel:+96550044333"> <i class="fas fa-phone"></i> </a>
                         <a href="mailto:ishalrumaihi@hotmail.com"> <i class="fas fa-envelope"></i> </a>
+                        <a href="https://wa.me/96550044333"> <i class="fab fa-whatsapp"></i> </a>
                     </div>
                 </div>
                 <div class="col-lg-6">

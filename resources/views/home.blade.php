@@ -4,7 +4,7 @@
 
 @section('content')
     <!--  Start header  -->
-    <header id="home" class="tc-header-st1 bg-img" data-background="{{ asset('assets/img/hero.jpg') }}">
+    <header id="home" class="tc-header-st1 bg-img" data-background="{{ asset('assets/img/hero.jpeg') }}">
         <div class="container">
             <div class="content">
                 <p class="title_desc"> At ISHA Interior Design Studio, we believe that interior design is the art of harmonizing beauty with purpose. Our mission is to craft refined spaces where functionality meets personal expression – each design telling a unique story, embodying a vision, and enriching the lives of those who experience it.</p>
