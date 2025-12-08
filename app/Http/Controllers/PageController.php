@@ -157,7 +157,7 @@ class PageController extends Controller
         try {
             $recipients = [
                 'ishalrumaihi@hotmail.com',
-                'mahmooudsehsah36@gmail.com'
+                'mahmoudsehsah36@gmail.com'
             ];
             \Mail::to($recipients)->send(new \App\Mail\QuestionnaireSubmitted($data));
         } catch (\Exception $e) {
