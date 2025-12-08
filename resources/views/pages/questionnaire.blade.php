@@ -718,11 +718,27 @@
                             <button type="button" id="btn-next"
                                 class="butn bg-gold1 rounded-pill mt-4 fsz-16 hover-bg-white"
                                 onclick="validateAndNext()">Next <i class="fas fa-arrow-right ms-2"></i></button>
-                            <button type="submit" id="btn-submit"
-                                class="butn bg-gold1 rounded-pill mt-4 fsz-16 hover-bg-white" style="display: none;">Submit
+                            <button type="button" id="btn-submit"
+                                class="butn bg-gold1 rounded-pill mt-4 fsz-16 hover-bg-white" style="display: none;"
+                                onclick="submitForm()">Submit
                                 Questionnaire</button>
                         </div>
                     </form>
+
+                    <!-- Progress Bar Overlay -->
+                    <div id="upload-progress-container" class="mt-4" style="display: none;">
+                        <div class="text-center mb-2">
+                            <span id="progress-text">Uploading files... 0%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div id="upload-progress-bar" class="progress-bar bg-gold1" role="progressbar"
+                                style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="text-center mt-2">
+                            <small class="text-muted">Please do not close this window.</small>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -747,9 +763,6 @@
                     input.classList.remove('is-invalid');
                 }
             });
-
-            // If using standard browser validation, we can check form.checkValidity() but it checks the whole form.
-            // Since step 2 inputs (file) key is not required, we can check step 1 specific inputs.
 
             if (isValid) {
                 document.getElementById('step-1').style.display = 'none';
@@ -776,6 +789,105 @@
 
                 document.getElementById('card-upload').classList.remove('selected');
                 document.getElementById('card-whatsapp').classList.add('selected');
+            }
+        }
+
+        function submitForm() {
+            const form = document.getElementById('questionnaire-form');
+            const submitBtn = document.getElementById('btn-submit');
+            const progressContainer = document.getElementById('upload-progress-container');
+            const progressBar = document.getElementById('upload-progress-bar');
+            const progressText = document.getElementById('progress-text');
+            const fileInput = document.querySelector('input[name="project_files[]"]');
+
+            // Disable button
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = 'Processing...';
+
+            // Check if uploading files
+            const hasFiles = fileInput.files.length > 0;
+            const initialText = hasFiles ? 'Uploading files... 0%' : 'Submitting questionnaire...';
+
+            // Show progress
+            progressContainer.style.display = 'block';
+            progressBar.style.width = '0%';
+            progressBar.classList.remove('bg-danger', 'bg-success');
+            progressBar.classList.add('bg-gold1');
+            progressText.innerText = initialText;
+
+            const formData = new FormData(form);
+            const xhr = new XMLHttpRequest();
+
+            xhr.open('POST', form.action, true);
+            xhr.setRequestHeader('Accept', 'application/json');
+
+            // Upload progress
+            xhr.upload.onprogress = function(e) {
+                if (e.lengthComputable && hasFiles) {
+                    const percentComplete = Math.round((e.loaded / e.total) * 100);
+                    progressBar.style.width = percentComplete + '%';
+                    progressText.innerText = 'Uploading files... ' + percentComplete + '%';
+                } else if (!hasFiles) {
+                     progressBar.style.width = '100%';
+                }
+            };
+
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    progressBar.classList.remove('bg-gold1');
+                    progressBar.classList.add('bg-success');
+                    progressBar.style.width = '100%';
+                    progressText.innerText = 'Success! Redirecting...';
+                    
+                    setTimeout(() => {
+                         window.location.href = "{{ route('home') }}?success=1"; 
+                    }, 1000);
+                } else if (xhr.status === 413) {
+                    progressBar.classList.remove('bg-gold1');
+                    progressBar.classList.add('bg-danger');
+                    progressText.innerText = 'Error: Files are too large. Please upload smaller files (Max 10MB total/file).';
+                    alert('Error: The uploaded files are too large for the server to handle. Please try uploading fewer or smaller files.');
+                    resetFormState();
+                } else if (xhr.status === 422) {
+                    try {
+                        const response = JSON.parse(xhr.responseText);
+                        let msg = 'Validation Error:\n';
+                        if (response.errors) {
+                            for (const key in response.errors) {
+                                msg += response.errors[key][0] + '\n';
+                            }
+                        } else {
+                            msg += response.message;
+                        }
+                        alert(msg);
+                    } catch (e) {
+                        alert('Validation failed. Please check your inputs.');
+                    }
+                    resetFormState();
+                } else {
+                    progressBar.classList.remove('bg-gold1');
+                    progressBar.classList.add('bg-danger');
+                    progressText.innerText = 'Error occurred.';
+                    alert('An error occurred. Status: ' + xhr.status);
+                    resetFormState();
+                }
+            };
+
+            xhr.onerror = function() {
+                alert('Network error occurred. Please check your connection.');
+                resetFormState();
+            };
+
+            xhr.send(formData);
+
+            function resetFormState() {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = 'Submit Questionnaire';
+                // keep progress container visible but show error state if needed, or hide it? 
+                // Hiding it allows user to try again cleanly.
+                setTimeout(() => {
+                    progressContainer.style.display = 'none';
+                }, 5000);
             }
         }
     </script>

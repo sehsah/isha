@@ -160,6 +160,13 @@ class PageController extends Controller
             \Log::error('Failed to send questionnaire submission email: ' . $e->getMessage());
         }
 
+        if ($request->wantsJson()) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Thank you for your submission! We have received your information and will be in touch shortly.'
+            ]);
+        }
+
         return back()->with('success', 'Thank you for your submission! We have received your information and will be in touch shortly.');
     }
 

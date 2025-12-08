@@ -7,7 +7,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class QuestionnaireSubmitted extends Mailable
+class QuestionnaireSubmitted extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
 
