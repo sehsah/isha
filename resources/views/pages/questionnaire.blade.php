@@ -74,7 +74,7 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <label class="fsz-16 mb-2">What is the Meter footage of the space?</label>
+                                        <label class="fsz-16 mb-2">What is the Meter square of the space?</label>
                                         <input type="text" name="sq_footage" class="form-control" required>
                                     </div>
                                     <div class="col-lg-6">
@@ -561,7 +561,7 @@
                                     <div class="form-check"><input class="form-check-input" type="checkbox"
                                             name="storage_options[]" value="drawers_drawers_drawers"
                                             id="so_drawers_drawers_drawers"><label class="form-check-label"
-                                            for="so_drawers_drawers_drawers">Drawers, drawers, drawers</label></div>
+                                            for="so_drawers_drawers_drawers">Drawers</label></div>
                                     <div class="form-check"><input class="form-check-input" type="checkbox"
                                             name="storage_options[]" value="cupboards_and_drawers"
                                             id="so_cupboards_drawers"><label class="form-check-label"
@@ -822,25 +822,25 @@
             xhr.setRequestHeader('Accept', 'application/json');
 
             // Upload progress
-            xhr.upload.onprogress = function(e) {
+            xhr.upload.onprogress = function (e) {
                 if (e.lengthComputable && hasFiles) {
                     const percentComplete = Math.round((e.loaded / e.total) * 100);
                     progressBar.style.width = percentComplete + '%';
                     progressText.innerText = 'Uploading files... ' + percentComplete + '%';
                 } else if (!hasFiles) {
-                     progressBar.style.width = '100%';
+                    progressBar.style.width = '100%';
                 }
             };
 
-            xhr.onload = function() {
+            xhr.onload = function () {
                 if (xhr.status === 200) {
                     progressBar.classList.remove('bg-gold1');
                     progressBar.classList.add('bg-success');
                     progressBar.style.width = '100%';
                     progressText.innerText = 'Success! Redirecting...';
-                    
+
                     setTimeout(() => {
-                         window.location.href = "{{ route('home') }}?success=1"; 
+                        window.location.href = "{{ route('home') }}?success=1";
                     }, 1000);
                 } else if (xhr.status === 413) {
                     progressBar.classList.remove('bg-gold1');
@@ -873,7 +873,7 @@
                 }
             };
 
-            xhr.onerror = function() {
+            xhr.onerror = function () {
                 alert('Network error occurred. Please check your connection.');
                 resetFormState();
             };
