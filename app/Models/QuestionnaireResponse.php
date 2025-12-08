@@ -87,6 +87,8 @@ class QuestionnaireResponse extends Model
         // Furniture Preference
         'repurpose_pieces',
         'furnishing_spend',
+        'project_files',
+        'google_drive_link',
     ];
     protected $guarded = ['id'];
 
@@ -123,5 +125,6 @@ class QuestionnaireResponse extends Model
         'bedroom_lighting_preference' => 'array',
         'bedroom_storage_solutions' => 'array',
         'furnishing_spend' => 'array',
+        'project_files' => 'array',
     ];
 }

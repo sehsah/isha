@@ -29,89 +29,89 @@ class PageController extends Controller
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects2.jpg',                
+                'image' => 'projects/projects2.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects3.jpg',                
+                'image' => 'projects/projects3.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects4.jpg',                
+                'image' => 'projects/projects4.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects5.jpg',                
+                'image' => 'projects/projects5.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects6.jpg',                
+                'image' => 'projects/projects6.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects7.jpg',                
+                'image' => 'projects/projects7.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects8.jpg',                
+                'image' => 'projects/projects8.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects9.jpg',                
+                'image' => 'projects/projects9.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects10.jpg',                
+                'image' => 'projects/projects10.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects11.jpg',                
+                'image' => 'projects/projects11.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects12.jpg',                
+                'image' => 'projects/projects12.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects13.jpg',                
+                'image' => 'projects/projects13.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects14.jpg',                
+                'image' => 'projects/projects14.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects15.jpg',                
+                'image' => 'projects/projects15.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects16.jpg',                
+                'image' => 'projects/projects16.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects17.jpg',                
+                'image' => 'projects/projects17.jpg',
             ],
             [
                 'title' => 'Cozy Bedroom Retreat',
                 'description' => 'A warm and inviting bedroom with soft textiles, ambient lighting, and calming colors to create a peaceful atmosphere.',
-                'image' => 'projects/projects18.jpg',                
+                'image' => 'projects/projects18.jpg',
             ],
-        ];        
+        ];
         return view('pages.projects', ['projects' => $projects]);
     }
 
@@ -137,12 +137,25 @@ class PageController extends Controller
 
     public function submitQuestionnaire(Request $request)
     {
-        // In a real application, you would add validation here.
-        $data = $request->all();
+        $request->validate([
+            'project_files.*' => 'nullable|file|mimes:jpg,jpeg,png,pdf|max:10240', // 10MB Max
+        ]);
+
+        $data = $request->except('project_files');
+
+        $filePaths = [];
+        if ($request->hasFile('project_files')) {
+            foreach ($request->file('project_files') as $file) {
+                $path = $file->store('uploads/questionnaire', 'public');
+                $filePaths[] = $path;
+            }
+        }
+        $data['project_files'] = $filePaths;
+
         QuestionnaireResponse::create($data);
 
         try {
-             \Mail::to('ishalrumaihi@hotmail.com')->send(new \App\Mail\QuestionnaireSubmitted($data));
+            \Mail::to('ishalrumaihi@hotmail.com')->send(new \App\Mail\QuestionnaireSubmitted($data));
         } catch (\Exception $e) {
             \Log::error('Failed to send questionnaire submission email: ' . $e->getMessage());
         }

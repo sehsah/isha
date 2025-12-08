@@ -685,7 +685,8 @@
                                         <div class="mt-3 ps-4" id="upload-section">
                                             <input type="file" name="project_files[]" class="form-control" multiple
                                                 accept="image/*,application/pdf">
-                                            <small class="text-muted">You can select multiple files.</small>
+                                            <small class="text-muted">You can select multiple files. Max size 10MB per
+                                                file.</small>
                                             <div class="mt-3" id="google-drive-section">
                                                 <h6>Share GoogleDrive link</h6>
                                                 <textarea name="google_drive_link" class="form-control mt-3"></textarea>
