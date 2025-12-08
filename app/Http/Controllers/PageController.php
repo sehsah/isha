@@ -155,7 +155,11 @@ class PageController extends Controller
         QuestionnaireResponse::create($data);
 
         try {
-            \Mail::to('ishalrumaihi@hotmail.com')->send(new \App\Mail\QuestionnaireSubmitted($data));
+            $recipients = [
+                'ishalrumaihi@hotmail.com',
+                'mahmooudsehsah36@gmail.com'
+            ];
+            \Mail::to($recipients)->send(new \App\Mail\QuestionnaireSubmitted($data));
         } catch (\Exception $e) {
             \Log::error('Failed to send questionnaire submission email: ' . $e->getMessage());
         }
