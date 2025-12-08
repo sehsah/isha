@@ -126,6 +126,23 @@
 		@endif
 	</ul>
 
+    <h3>Attachments</h3>
+    <ul>
+        @if(!empty($data['project_files']))
+            <li><strong>Uploaded Files:</strong>
+                <ul>
+                    @foreach($data['project_files'] as $file)
+                        <li><a href="{{ asset('storage/' . $file) }}">{{ basename($file) }}</a></li>
+                    @endforeach
+                </ul>
+            </li>
+        @endif
+        
+        @if(!empty($data['google_drive_link']))
+            <li><strong>Google Drive Link:</strong> <a href="{{ $data['google_drive_link'] }}">{{ $data['google_drive_link'] }}</a></li>
+        @endif
+    </ul>
+
 	<hr>
 	<p>Thanks,<br>{{ config('app.name') }}</p>
 </body>
