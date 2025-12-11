@@ -143,7 +143,5 @@
         @endif
     </ul>
 
-	<hr>
-	<p>Thanks,<br>{{ config('app.name') }}</p>
 </body>
 </html>
