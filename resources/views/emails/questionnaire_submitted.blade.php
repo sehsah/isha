@@ -132,7 +132,7 @@
             <li><strong>Uploaded Files:</strong>
                 <ul>
                     @foreach($data['project_files'] as $file)
-                        <li><a href="{{ asset('storage/' . $file) }}">{{ basename($file) }}</a></li>
+                        <li><a href="{{ asset('storage/' . $file) }}">{{ asset('storage/' . $file) }}</a></li>
                     @endforeach
                 </ul>
             </li>
